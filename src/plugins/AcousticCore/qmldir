@@ -1,0 +1,7 @@
+module AcousticCore
+WaveCoreBackgroundExtension 1.0 qml/backgroundExtension/WaveCoreBackgroundExtension.qml
+WaveDebugSettingsButton 1.0 qml/settingsButton/WaveDebugSettingsButton.qml
+StationMenuButton 1.0 qml/menuButton/StationMenuButton.qml
+StationMenuWindow 1.0 qml/menuWindow/StationMenuWindow.qml
+WaveDebugSettingsWindow 1.0 qml/settingsWindow/WaveDebugSettingsWindow.qml
+plugin AcousticCore

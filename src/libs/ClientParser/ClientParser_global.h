@@ -1,0 +1,12 @@
+#ifndef CLIENTPARSER_GLOBAL_H
+#define CLIENTPARSER_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(CLIENTPARSER_LIBRARY)
+#  define CLIENTPARSER_EXPORT Q_DECL_EXPORT
+#else
+#  define CLIENTPARSER_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // CLIENTPARSER_GLOBAL_H

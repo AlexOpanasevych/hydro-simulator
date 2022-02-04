@@ -1,0 +1,6 @@
+[submodule "klibcorelite"]
+	path = src/libs/klibcorelite
+	url = git@gitlab.bacul14.kl.ua:vitaliy/klibcorelite.git
+[submodule "src/plugins/CQML"]
+	path = src/plugins/CQML
+	url = git@gitlab.bacul14.kl.ua:vitaliy/CQML.git

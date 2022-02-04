@@ -1,0 +1,6 @@
+module ServerInterface
+ClientsList 1.0 resources/qml/ClientsList.qml
+ListDragItem 1.0 resources/qml/ListDragItem.qml
+PopupMessage 1.0 resources/qml/PopupMessage.qml
+Tiles 1.0 resources/qml/Tiles.qml
+plugin ServerInterface

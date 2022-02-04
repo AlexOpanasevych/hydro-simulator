@@ -1,0 +1,59 @@
+\hypertarget{class_k_bus}{}\doxysection{K\+Bus Class Reference}
+\label{class_k_bus}\index{KBus@{KBus}}
+
+
+Inheritance diagram for K\+Bus\+:
+% FIG 0
+
+
+Collaboration diagram for K\+Bus\+:
+% FIG 1
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{struct_k_bus_1_1_connection_data}{Connection\+Data}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_k_bus_aa8824d7f01a4ba0ccbc7b0848928554f}\label{class_k_bus_aa8824d7f01a4ba0ccbc7b0848928554f}} 
+void {\bfseries start} ()
+\item 
+\mbox{\Hypertarget{class_k_bus_aff03b32d17ed7bffcad6a4845bf5d5b3}\label{class_k_bus_aff03b32d17ed7bffcad6a4845bf5d5b3}} 
+virtual bool {\bfseries is\+Connected} ()=0
+\item 
+\mbox{\Hypertarget{class_k_bus_a29bad77ddcbf1eab319210fd4b04aa7a}\label{class_k_bus_a29bad77ddcbf1eab319210fd4b04aa7a}} 
+virtual bool {\bfseries is\+Empty\+TX} ()=0
+\item 
+\mbox{\Hypertarget{class_k_bus_a58e971d9bba8c5ac3be9fc278811face}\label{class_k_bus_a58e971d9bba8c5ac3be9fc278811face}} 
+virtual bool {\bfseries is\+Empty\+RX} ()=0
+\item 
+\mbox{\Hypertarget{class_k_bus_a305d33e934181fb9fc6210dbf41c9ffa}\label{class_k_bus_a305d33e934181fb9fc6210dbf41c9ffa}} 
+virtual void {\bfseries push} (const Q\+Byte\+Array \&)=0
+\item 
+\mbox{\Hypertarget{class_k_bus_aa874e9cd87c7bacd328541fee1a36e82}\label{class_k_bus_aa874e9cd87c7bacd328541fee1a36e82}} 
+virtual Q\+Byte\+Array {\bfseries pop} ()=0
+\item 
+\mbox{\Hypertarget{class_k_bus_a43d5862bdfe91e43d0c9fd3b1bc77677}\label{class_k_bus_a43d5862bdfe91e43d0c9fd3b1bc77677}} 
+void {\bfseries add\+Worker} (\mbox{\hyperlink{class_k_bus_worker}{K\+Bus\+Worker}} $\ast$w)
+\item 
+\mbox{\Hypertarget{class_k_bus_a2ba237658cf8deb948150e4081962f82}\label{class_k_bus_a2ba237658cf8deb948150e4081962f82}} 
+void {\bfseries remove\+All\+Worker} (\mbox{\hyperlink{class_k_bus_worker}{K\+Bus\+Worker}} $\ast$w)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_k_bus_a868bea6a6c94c10803356d1861b137a4}\label{class_k_bus_a868bea6a6c94c10803356d1861b137a4}} 
+virtual void {\bfseries start\+Override} ()=0
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_k_bus_a5be335b1618b6b4a746836e0f107cacf}\label{class_k_bus_a5be335b1618b6b4a746836e0f107cacf}} 
+Q\+List$<$ \mbox{\hyperlink{class_k_bus_worker}{K\+Bus\+Worker}} $\ast$ $>$ {\bfseries m\+\_\+workers}
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+base/K\+Bus.\+h\end{DoxyCompactItemize}

@@ -1,0 +1,217 @@
+\hypertarget{class_k_serial_bus_threaded}{}\doxysection{K\+Serial\+Bus\+Threaded Class Reference}
+\label{class_k_serial_bus_threaded}\index{KSerialBusThreaded@{KSerialBusThreaded}}
+
+
+Implementation \mbox{\hyperlink{class_k_bus}{K\+Bus}} on Q\+Serial\+Port, Q\+Thread and Workers.  
+
+
+
+
+{\ttfamily \#include $<$kserialbusthreaded.\+h$>$}
+
+Inheritance diagram for K\+Serial\+Bus\+Threaded\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_k_serial_bus_threaded}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_k_serial_bus_threaded_a95b56c9e4dbcd4265038cd52a2c8c91b}\label{class_k_serial_bus_threaded_a95b56c9e4dbcd4265038cd52a2c8c91b}} 
+\mbox{\hyperlink{class_k_serial_bus_threaded_a95b56c9e4dbcd4265038cd52a2c8c91b}{K\+Serial\+Bus\+Threaded}} ()
+\begin{DoxyCompactList}\small\item\em Constructor \mbox{\hyperlink{class_k_serial_bus_threaded}{K\+Serial\+Bus\+Threaded}}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_k_serial_bus_threaded_ab94f71a3c9a9fbeb539b003c47f62a46}{$\sim$\+K\+Serial\+Bus\+Threaded}} () override
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_k_serial_bus_threaded}{K\+Serial\+Bus\+Threaded}} destructor. Wait while thread stopped and close serial port. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_k_serial_bus_threaded_a8e34cce5071b8e3addf459661557f56b}{is\+Empty\+TX}} () override
+\begin{DoxyCompactList}\small\item\em Return status of transceive circular buffer. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_k_serial_bus_threaded_ab6d5e9107218b763087ff6825be1d028}{is\+Empty\+RX}} () override
+\begin{DoxyCompactList}\small\item\em Return status of receive circular buffer. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_k_serial_bus_threaded_aa4d0a1fda372c7c427be29f5d96bf49e}{is\+Connected}} () override
+\begin{DoxyCompactList}\small\item\em Return status of Q\+Serial\+Port connection. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_k_serial_bus_threaded_a5e094800631065eef422f9c37de4e045}{push}} (const Q\+Byte\+Array \&data) override
+\begin{DoxyCompactList}\small\item\em Add data to transceiver circular buffer. \end{DoxyCompactList}\item 
+Q\+Byte\+Array \mbox{\hyperlink{class_k_serial_bus_threaded_a85d12fc1fd55761dbb64f9dd176dd92b}{pop}} () override
+\begin{DoxyCompactList}\small\item\em Get readed data from receive circular buffer. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_k_serial_bus_threaded_ac60f37c2c0a68cc36fd2f612b7bf1226}{stop\+Thread}} ()
+\begin{DoxyCompactList}\small\item\em Stopping main thread. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_k_serial_bus_threaded_a99f591ccc6935dfea180fb8358f6fd93}{set\+Port}} (Q\+String name, uint64\+\_\+t baud\+Rate)
+\begin{DoxyCompactList}\small\item\em Set main port params. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static Q\+List$<$ \mbox{\hyperlink{struct_k_bus_1_1_connection_data}{Connection\+Data}} $>$ \mbox{\hyperlink{class_k_serial_bus_threaded_a624318aa7baee286dbf1bb7e1b20e113}{get\+Connection\+Data}} ()
+\begin{DoxyCompactList}\small\item\em Get parameters for automatic generating form. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_k_serial_bus_threaded_a0886bce97f5a990782d0694caf3dbf67}\label{class_k_serial_bus_threaded_a0886bce97f5a990782d0694caf3dbf67}} 
+void \mbox{\hyperlink{class_k_serial_bus_threaded_a0886bce97f5a990782d0694caf3dbf67}{start\+Override}} () override
+\begin{DoxyCompactList}\small\item\em Start thread and begin work\+: open serial, execution read/write operations, calling workers. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+Implementation \mbox{\hyperlink{class_k_bus}{K\+Bus}} on Q\+Serial\+Port, Q\+Thread and Workers. 
+
+\begin{DoxyAuthor}{Authors}
+oleksii, VladyslavN 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+0.\+1 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+26.\+04.\+2021 
+\end{DoxyDate}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_k_serial_bus_threaded_ab94f71a3c9a9fbeb539b003c47f62a46}\label{class_k_serial_bus_threaded_ab94f71a3c9a9fbeb539b003c47f62a46}} 
+\index{KSerialBusThreaded@{KSerialBusThreaded}!````~KSerialBusThreaded@{$\sim$KSerialBusThreaded}}
+\index{````~KSerialBusThreaded@{$\sim$KSerialBusThreaded}!KSerialBusThreaded@{KSerialBusThreaded}}
+\doxysubsubsection{\texorpdfstring{$\sim$KSerialBusThreaded()}{~KSerialBusThreaded()}}
+{\footnotesize\ttfamily K\+Serial\+Bus\+Threaded\+::$\sim$\+K\+Serial\+Bus\+Threaded (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}}
+
+
+
+\mbox{\hyperlink{class_k_serial_bus_threaded}{K\+Serial\+Bus\+Threaded}} destructor. Wait while thread stopped and close serial port. 
+
+You must call destructor in your application for correct close program 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_k_serial_bus_threaded_a624318aa7baee286dbf1bb7e1b20e113}\label{class_k_serial_bus_threaded_a624318aa7baee286dbf1bb7e1b20e113}} 
+\index{KSerialBusThreaded@{KSerialBusThreaded}!getConnectionData@{getConnectionData}}
+\index{getConnectionData@{getConnectionData}!KSerialBusThreaded@{KSerialBusThreaded}}
+\doxysubsubsection{\texorpdfstring{getConnectionData()}{getConnectionData()}}
+{\footnotesize\ttfamily Q\+List$<$ \mbox{\hyperlink{struct_k_bus_1_1_connection_data}{K\+Bus\+::\+Connection\+Data}} $>$ K\+Serial\+Bus\+Threaded\+::get\+Connection\+Data (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Get parameters for automatic generating form. 
+
+\begin{DoxyReturn}{Returns}
+list of parameters
+\end{DoxyReturn}
+See struct \mbox{\hyperlink{struct_k_bus_1_1_connection_data}{K\+Bus\+::\+Connection\+Data}}. Name -\/ title of element, type -\/ type of element, data -\/ data of element \mbox{\Hypertarget{class_k_serial_bus_threaded_aa4d0a1fda372c7c427be29f5d96bf49e}\label{class_k_serial_bus_threaded_aa4d0a1fda372c7c427be29f5d96bf49e}} 
+\index{KSerialBusThreaded@{KSerialBusThreaded}!isConnected@{isConnected}}
+\index{isConnected@{isConnected}!KSerialBusThreaded@{KSerialBusThreaded}}
+\doxysubsubsection{\texorpdfstring{isConnected()}{isConnected()}}
+{\footnotesize\ttfamily bool K\+Serial\+Bus\+Threaded\+::is\+Connected (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Return status of Q\+Serial\+Port connection. 
+
+\begin{DoxyReturn}{Returns}
+Is the \mbox{\hyperlink{class_k_serial_bus_threaded}{K\+Serial\+Bus\+Threaded}} connected to the target C\+O\+M-\/port 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_k_bus}{K\+Bus}}.
+
+\mbox{\Hypertarget{class_k_serial_bus_threaded_ab6d5e9107218b763087ff6825be1d028}\label{class_k_serial_bus_threaded_ab6d5e9107218b763087ff6825be1d028}} 
+\index{KSerialBusThreaded@{KSerialBusThreaded}!isEmptyRX@{isEmptyRX}}
+\index{isEmptyRX@{isEmptyRX}!KSerialBusThreaded@{KSerialBusThreaded}}
+\doxysubsubsection{\texorpdfstring{isEmptyRX()}{isEmptyRX()}}
+{\footnotesize\ttfamily bool K\+Serial\+Bus\+Threaded\+::is\+Empty\+RX (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Return status of receive circular buffer. 
+
+\begin{DoxyReturn}{Returns}
+Is the buffer empty. True = buffer is empty 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_k_bus}{K\+Bus}}.
+
+\mbox{\Hypertarget{class_k_serial_bus_threaded_a8e34cce5071b8e3addf459661557f56b}\label{class_k_serial_bus_threaded_a8e34cce5071b8e3addf459661557f56b}} 
+\index{KSerialBusThreaded@{KSerialBusThreaded}!isEmptyTX@{isEmptyTX}}
+\index{isEmptyTX@{isEmptyTX}!KSerialBusThreaded@{KSerialBusThreaded}}
+\doxysubsubsection{\texorpdfstring{isEmptyTX()}{isEmptyTX()}}
+{\footnotesize\ttfamily bool K\+Serial\+Bus\+Threaded\+::is\+Empty\+TX (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Return status of transceive circular buffer. 
+
+\begin{DoxyReturn}{Returns}
+Is the buffer empty. True = buffer is empty 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_k_bus}{K\+Bus}}.
+
+\mbox{\Hypertarget{class_k_serial_bus_threaded_a85d12fc1fd55761dbb64f9dd176dd92b}\label{class_k_serial_bus_threaded_a85d12fc1fd55761dbb64f9dd176dd92b}} 
+\index{KSerialBusThreaded@{KSerialBusThreaded}!pop@{pop}}
+\index{pop@{pop}!KSerialBusThreaded@{KSerialBusThreaded}}
+\doxysubsubsection{\texorpdfstring{pop()}{pop()}}
+{\footnotesize\ttfamily Q\+Byte\+Array K\+Serial\+Bus\+Threaded\+::pop (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Get readed data from receive circular buffer. 
+
+\begin{DoxyReturn}{Returns}
+Q\+Byte\+Array with readed data 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_k_bus}{K\+Bus}}.
+
+\mbox{\Hypertarget{class_k_serial_bus_threaded_a5e094800631065eef422f9c37de4e045}\label{class_k_serial_bus_threaded_a5e094800631065eef422f9c37de4e045}} 
+\index{KSerialBusThreaded@{KSerialBusThreaded}!push@{push}}
+\index{push@{push}!KSerialBusThreaded@{KSerialBusThreaded}}
+\doxysubsubsection{\texorpdfstring{push()}{push()}}
+{\footnotesize\ttfamily void K\+Serial\+Bus\+Threaded\+::push (\begin{DoxyParamCaption}\item[{const Q\+Byte\+Array \&}]{data }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Add data to transceiver circular buffer. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em Q\+Byte\+Array} & object with data which need to be transieved \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_k_bus}{K\+Bus}}.
+
+\mbox{\Hypertarget{class_k_serial_bus_threaded_a99f591ccc6935dfea180fb8358f6fd93}\label{class_k_serial_bus_threaded_a99f591ccc6935dfea180fb8358f6fd93}} 
+\index{KSerialBusThreaded@{KSerialBusThreaded}!setPort@{setPort}}
+\index{setPort@{setPort}!KSerialBusThreaded@{KSerialBusThreaded}}
+\doxysubsubsection{\texorpdfstring{setPort()}{setPort()}}
+{\footnotesize\ttfamily bool K\+Serial\+Bus\+Threaded\+::set\+Port (\begin{DoxyParamCaption}\item[{Q\+String}]{name,  }\item[{uint64\+\_\+t}]{baud\+Rate }\end{DoxyParamCaption})}
+
+
+
+Set main port params. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em name} & C\+O\+M-\/port name \\
+\hline
+\mbox{\texttt{ in}}  & {\em baud\+Rate} & C\+O\+M-\/port speed \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Status of applying settings. False = settings not applying
+\end{DoxyReturn}
+If C\+O\+M-\/port is open the settings not applying \mbox{\Hypertarget{class_k_serial_bus_threaded_ac60f37c2c0a68cc36fd2f612b7bf1226}\label{class_k_serial_bus_threaded_ac60f37c2c0a68cc36fd2f612b7bf1226}} 
+\index{KSerialBusThreaded@{KSerialBusThreaded}!stopThread@{stopThread}}
+\index{stopThread@{stopThread}!KSerialBusThreaded@{KSerialBusThreaded}}
+\doxysubsubsection{\texorpdfstring{stopThread()}{stopThread()}}
+{\footnotesize\ttfamily void K\+Serial\+Bus\+Threaded\+::stop\+Thread (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Stopping main thread. 
+
+Wait for function \textquotesingle{}run\textquotesingle{} stopped 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/sit23/\+Documents/\+Application\+Projects\+Source/\+K\+Bus/buses/kserialbusthreaded.\+h\item 
+C\+:/\+Users/sit23/\+Documents/\+Application\+Projects\+Source/\+K\+Bus/buses/kserialbusthreaded.\+cpp\end{DoxyCompactItemize}

@@ -1,0 +1,4 @@
+var struct_eigen_1_1internal_1_1transform__right__product__impl_3_01_transform_type_00_01_matrix_type_00_011_00_01_rhs_cols_01_4 =
+[
+    [ "ResultType", "struct_eigen_1_1internal_1_1transform__right__product__impl_3_01_transform_type_00_01_matrix_type_00_011_00_01_rhs_cols_01_4.html#a2a1ca35510e3f48eff5f8c57d5bfd3e6", null ]
+];

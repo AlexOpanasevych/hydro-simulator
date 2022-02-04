@@ -1,0 +1,10 @@
+module Vessel
+VesselAddItemMenuButton 1.0 qml/menuButton/VesselAddItemMenuButton.qml
+VesselMenuButton 1.0 qml/menuButton/VesselMenuButton.qml
+VesselAddItemMenuWindow 1.0 qml/menuWindow/VesselAddItemMenuWindow.qml
+VesselMenuWindow 1.0 qml/menuWindow/VesselMenuWindow.qml
+VesselSceneLoader 1.0 qml/sceneLoader/VesselSceneLoader.qml
+VesselItem 1.0 qml/items/VesselItem.qml
+VesselProperties 1.0 qml/properties/VesselProperties.qml
+ExtraInfoPanel 1.0 qml/sceneLoader/ExtraInfoPanel.qml
+plugin Vessel

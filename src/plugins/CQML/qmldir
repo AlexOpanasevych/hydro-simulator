@@ -1,0 +1,34 @@
+module CQML
+SystemDialog 1.0 window/SystemDialog.qml
+SystemMessage 1.0 window/SystemMessage.qml
+TabBar 1.0 window/TabBar.qml
+RadioButton 1.0 controls/RadioButton.qml
+Slider 1.0 controls/Slider.qml
+TextField 1.0 controls/TextField.qml
+Tab 1.0 controls/Tab.qml
+Button 1.0 controls/Button.qml
+ComboButton 1.0 controls/ComboButton.qml
+IconButton 1.0 controls/IconButton.qml
+ImageButton 1.0 controls/ImageButton.qml
+PlayerSlider 1.0 controls/PlayerSlider.qml
+TabButton 1.0 controls/TabButton.qml
+Clipboard 1.0 base/Clipboard.qml
+base 1.0 base/base.qrc
+AwesomeMap 1.0 base/AwesomeMap.js
+AwesomeRegular 1.0 base/AwesomeRegular.ttf
+AwesomeSolid 1.0 base/AwesomeSolid.ttf
+BaseBackground 1.0 base/BaseBackground.qml
+Icon 1.0 base/Icon.qml
+singleton IconHelper 1.0 base/IconHelper.qml
+RippleMask 1.0 base/RippleMask.qml
+WavedMouseArea 1.0 base/WavedMouseArea.qml
+FolderDialog 1.0 extras/FolderDialog.qml
+FileDialog 1.0 extras/FileDialog.qml
+MenuItems 1.0 extras/MenuItems.qml
+StackMenu 1.0 extras/StackMenu.qml
+genie 1.0 shaders/genie.vert
+shaders 1.0 shaders/shaders.qrc
+Dial 1.0 controls/Dial.qml
+CheckBox 1.0 controls/CheckBox.qml
+ComboBox 1.0 controls/ComboBox.qml
+plugin CQML

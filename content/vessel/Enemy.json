@@ -1,0 +1,10 @@
+{
+    "Createable": false,
+    "MaxDepth": 0,
+    "MaxVelocity": 40,
+    "ObjectName": "Enemy",
+    "Removeable": false,
+    "Removed": false,
+    "Type": "Vessel",
+    "imagePath": "../../../content/images/96px-HOS_GND+EQP+SRF.svg.png"
+}

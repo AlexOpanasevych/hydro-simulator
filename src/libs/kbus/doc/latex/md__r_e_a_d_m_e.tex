@@ -1,0 +1,79 @@
+\hypertarget{md__r_e_a_d_m_e_autotoc_md1}{}\doxyparagraph{Add headers}\label{md__r_e_a_d_m_e_autotoc_md1}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{preprocessor}{\#include "kbusfactory.h"}}
+\DoxyCodeLine{\textcolor{preprocessor}{\#include "MyWorker.h"}}
+\end{DoxyCode}
+\hypertarget{md__r_e_a_d_m_e_autotoc_md2}{}\doxyparagraph{Add declaration}\label{md__r_e_a_d_m_e_autotoc_md2}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\mbox{\hyperlink{class_k_bus}{KBus}} *serial;}
+\DoxyCodeLine{MyWorker myWorker;}
+\end{DoxyCode}
+\hypertarget{md__r_e_a_d_m_e_autotoc_md3}{}\doxyparagraph{Add initialization}\label{md__r_e_a_d_m_e_autotoc_md3}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{serial = \mbox{\hyperlink{class_k_bus_factory_ad60cc93d87f3cf81fdc3043026840b0d}{KBusFactory::instance}}()-\/>\mbox{\hyperlink{class_k_bus_factory_af90b63b68dc45947328c96653a3b9647}{create}}(\textcolor{stringliteral}{"threaded"}, QVariantMap\{\{\textcolor{stringliteral}{"port-\/name"}, \textcolor{stringliteral}{"COM6"}\}, \{\textcolor{stringliteral}{"baud-\/rate"}, 9600\}\});}
+\DoxyCodeLine{serial-\/>start();}
+\DoxyCodeLine{myWorker.setID(0x01);}
+\DoxyCodeLine{serial-\/>addWorker(\&myWorker);}
+\end{DoxyCode}
+\hypertarget{md__r_e_a_d_m_e_autotoc_md4}{}\doxyparagraph{Add to application destructor}\label{md__r_e_a_d_m_e_autotoc_md4}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keyword}{delete} serial;}
+\end{DoxyCode}
+
+
+~\newline
+\hypertarget{md__r_e_a_d_m_e_autotoc_md5}{}\doxysection{Internal mechanism}\label{md__r_e_a_d_m_e_autotoc_md5}
+\hypertarget{md__r_e_a_d_m_e_autotoc_md6}{}\doxysubsubsection{Workers}\label{md__r_e_a_d_m_e_autotoc_md6}
+Your Bus\+Workers must inherited of Bus\+Worker ({\ttfamily \mbox{\hyperlink{kbusworker_8h_source}{kbusworker.\+h}}})\+: 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keyword}{class }KBUS\_EXPORT BusWorker}
+\DoxyCodeLine{\{}
+\DoxyCodeLine{\textcolor{keyword}{protected}:}
+\DoxyCodeLine{    uint8\_t id;}
+\DoxyCodeLine{}
+\DoxyCodeLine{\textcolor{keyword}{public}:}
+\DoxyCodeLine{    BusWorker() \{\}}
+\DoxyCodeLine{    \textcolor{keyword}{virtual} \string~BusWorker() \{\}}
+\DoxyCodeLine{}
+\DoxyCodeLine{    \textcolor{keywordtype}{void} setID(uint8\_t \textcolor{keywordtype}{id}) \{ this-\/>\textcolor{keywordtype}{id} = id; \}}
+\DoxyCodeLine{    \textcolor{keyword}{virtual} \textcolor{keywordtype}{bool} proceedPacket(\textcolor{keyword}{const} QByteArray \&ar, \textcolor{keywordtype}{int} msec) = 0;}
+\DoxyCodeLine{    \textcolor{keyword}{virtual} QList<QByteArray> getPacketsForSend(\textcolor{keywordtype}{int} msec) = 0;}
+\DoxyCodeLine{\};}
+\end{DoxyCode}
+
+
+\hypertarget{md__r_e_a_d_m_e_autotoc_md7}{}\doxyparagraph{Worker receive}\label{md__r_e_a_d_m_e_autotoc_md7}
+When \mbox{\hyperlink{class_k_bus}{K\+Bus}} read data from the target port it pushes data into \mbox{\hyperlink{class_k_communicator}{K\+Communicator}}. If \mbox{\hyperlink{class_k_communicator}{K\+Communicator}} solve the data is ready it calls receive\+Callback. In this callback \mbox{\hyperlink{class_k_bus}{K\+Bus}} calls every worker and search the data owner. ~\newline
+  \hypertarget{md__r_e_a_d_m_e_autotoc_md8}{}\doxyparagraph{Workers send}\label{md__r_e_a_d_m_e_autotoc_md8}
+The \mbox{\hyperlink{class_k_bus}{K\+Bus}} calls workers as soon as possible. If a worker has data to send it adds to a circular buffer to send later. \hypertarget{md__r_e_a_d_m_e_autotoc_md9}{}\doxysubsubsection{User send}\label{md__r_e_a_d_m_e_autotoc_md9}
+If a user want to send some data via \mbox{\hyperlink{class_k_bus}{K\+Bus}} he must call K\+Bus\+::push function, which adds data to the circular buffer and sends this data later. 
+
+~\newline
+\hypertarget{md__r_e_a_d_m_e_autotoc_md10}{}\doxysection{Hierarchy}\label{md__r_e_a_d_m_e_autotoc_md10}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{graph TD;}
+\DoxyCodeLine{    QObject -\/-\/> KBus}
+\DoxyCodeLine{    KBus -\/-\/> KSerialBusThreaded}
+\DoxyCodeLine{    KBus -\/-\/> \_KWebSocketBus}
+\end{DoxyCode}
+
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{graph TD;}
+\DoxyCodeLine{    QObject -\/-\/> KBusWorker}
+\DoxyCodeLine{    KBusWorker -\/-\/> UserWorker}
+\end{DoxyCode}
+
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{graph TD;}
+\DoxyCodeLine{    KCommunicator -\/-\/> KRawParser}
+\end{DoxyCode}
+ 

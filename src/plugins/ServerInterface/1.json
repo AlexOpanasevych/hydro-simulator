@@ -1,0 +1,1688 @@
+{
+    "states": [
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 4,
+                    "value": "pressed",
+                    "values": {
+                        "led": "1",
+                        "ledMode": "tickling"
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 4,
+                    "value": "released",
+                    "values": {
+                        "led": "0",
+                        "ledMode": ""
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 78,
+                    "value": "pressed",
+                    "values": {
+                        "workMode": "1"
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 78,
+                    "value": "released",
+                    "values": {
+                        "workMode": "0"
+                    }
+                }
+            ],
+            "name": "workStart",
+            "stateId": 4
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 11,
+                    "value": "1",
+                    "values": {
+                        "index": "0"
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 11,
+                    "value": "0",
+                    "values": {
+                        "index": "-1"
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 13,
+                    "value": "1",
+                    "values": {
+                        "index": "0"
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 13,
+                    "value": "0",
+                    "values": {
+                        "index": "-1"
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 29,
+                    "value": "1",
+                    "values": {
+                        "index": "2"
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 29,
+                    "value": "0",
+                    "values": {
+                        "index": "-1"
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 18,
+                    "value": "1",
+                    "values": {
+                        "index": "1"
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 18,
+                    "value": "0",
+                    "values": {
+                        "index": "-1"
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 6,
+                    "value": "1",
+                    "values": {
+                        "index": "1"
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 6,
+                    "value": "0",
+                    "values": {
+                        "index": "0"
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 6,
+                    "value": "-1",
+                    "values": {
+                        "i": "-1"
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 23,
+                    "value": "0",
+                    "values": {
+                        "index": "-1"
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 9,
+                    "value": "1",
+                    "values": {
+                        "led": "0"
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 26,
+                    "value": "0",
+                    "values": {
+                        "index": "-1"
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 26,
+                    "value": "",
+                    "values": {
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 78,
+                    "value": "0",
+                    "values": {
+                        "epMode": "4"
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 10,
+                    "value": "0",
+                    "values": {
+                        "index": "-1"
+                    }
+                }
+            ],
+            "name": "ep",
+            "stateId": 6
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                        "ep.index": "0"
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 9,
+                    "value": "pressed",
+                    "values": {
+                        "led": "1"
+                    }
+                },
+                {
+                    "execValues": {
+                        "ep.index": "0"
+                    },
+                    "extra": [
+                        "any",
+                        "same"
+                    ],
+                    "stateId": 78,
+                    "value": "",
+                    "values": {
+                        "asc": "same"
+                    }
+                }
+            ],
+            "name": "asc",
+            "stateId": 9
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                        "ep.index": "1"
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 26,
+                    "value": "0",
+                    "values": {
+                        "index": "0"
+                    }
+                },
+                {
+                    "execValues": {
+                        "ep.index": "1"
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 26,
+                    "value": "1",
+                    "values": {
+                        "index": "1"
+                    }
+                },
+                {
+                    "execValues": {
+                        "ep.index": "1"
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 78,
+                    "value": "0",
+                    "values": {
+                        "epMode": "2"
+                    }
+                },
+                {
+                    "execValues": {
+                        "ep.index": "1"
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 78,
+                    "value": "1",
+                    "values": {
+                        "epMode": "3"
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 23,
+                    "value": "0",
+                    "values": {
+                        "index": "-1"
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 23,
+                    "value": "1",
+                    "values": {
+                        "index": "-1"
+                    }
+                }
+            ],
+            "name": "s1s2",
+            "stateId": 26
+        },
+        {
+            "changes": [
+            ],
+            "name": "rectMonitor4",
+            "stateId": 78
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                        "dpbp.index": "1",
+                        "ep.index": "1"
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 11,
+                    "value": "0",
+                    "values": {
+                        "index": "0"
+                    }
+                },
+                {
+                    "execValues": {
+                        "ep.index": "1"
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 11,
+                    "value": "1",
+                    "values": {
+                        "index": "1"
+                    }
+                },
+                {
+                    "execValues": {
+                        "ep.index": "1"
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 11,
+                    "value": "2",
+                    "values": {
+                        "index": "2"
+                    }
+                },
+                {
+                    "execValues": {
+                        "dpbp.index": "0",
+                        "ep.index": "1"
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 78,
+                    "value": "0",
+                    "values": {
+                    }
+                },
+                {
+                    "execValues": {
+                        "dpbp.index": "0",
+                        "ep.index": "1"
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 78,
+                    "value": "1",
+                    "values": {
+                    }
+                },
+                {
+                    "execValues": {
+                        "dpbp.index": [
+                            "0",
+                            "1"
+                        ],
+                        "ep.index": "1"
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 102,
+                    "value": "0",
+                    "values": {
+                        "searchAngleMode": "0"
+                    }
+                },
+                {
+                    "execValues": {
+                        "dpbp.index": "1",
+                        "ep.index": "1"
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 102,
+                    "value": "1",
+                    "values": {
+                        "searchAngleMode": "1"
+                    }
+                }
+            ],
+            "name": "searchMode",
+            "stateId": 11
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                        "ep.index": "1"
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 13,
+                    "value": "0",
+                    "values": {
+                        "index": "0"
+                    }
+                },
+                {
+                    "execValues": {
+                        "index": "1"
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 13,
+                    "value": "1",
+                    "values": {
+                        "index": "1"
+                    }
+                },
+                {
+                    "execValues": {
+                        "index": "2"
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 13,
+                    "value": "2",
+                    "values": {
+                        "index": "2"
+                    }
+                }
+            ],
+            "name": "paba",
+            "stateId": 13
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                        "dpbp.index": "0",
+                        "ep.index": "1"
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 29,
+                    "value": "0",
+                    "values": {
+                        "index": "0"
+                    }
+                },
+                {
+                    "execValues": {
+                        "dpbp.index": "0",
+                        "ep.index": "1"
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 29,
+                    "value": "1",
+                    "values": {
+                        "index": "1"
+                    }
+                },
+                {
+                    "execValues": {
+                        "dpbp.index": "0",
+                        "ep.index": "1"
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 29,
+                    "value": "2",
+                    "values": {
+                        "index": "2"
+                    }
+                },
+                {
+                    "execValues": {
+                        "dpbp.index": "0",
+                        "ep.index": "1"
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 29,
+                    "value": "3",
+                    "values": {
+                        "index": "3"
+                    }
+                },
+                {
+                    "execValues": {
+                        "dpbp.index": "0",
+                        "ep.index": "1"
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 78,
+                    "value": "0",
+                    "values": {
+                        "scale": "0"
+                    }
+                },
+                {
+                    "execValues": {
+                        "dpbp.index": "0",
+                        "ep.index": "1"
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 78,
+                    "value": "1",
+                    "values": {
+                        "scale": "1"
+                    }
+                },
+                {
+                    "execValues": {
+                        "dpbp.index": "0",
+                        "ep.index": "1"
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 78,
+                    "value": "2",
+                    "values": {
+                        "scale": "2"
+                    }
+                },
+                {
+                    "execValues": {
+                        "dpbp.index": "0",
+                        "ep.index": "1"
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 78,
+                    "value": "3",
+                    "values": {
+                        "scale": "3"
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 78,
+                    "value": null,
+                    "values": {
+                    }
+                },
+                {
+                    "execValues": {
+                        "dpbp.index": [
+                            "1",
+                            "0"
+                        ],
+                        "ep.index": "1"
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 102,
+                    "value": "0",
+                    "values": {
+                        "scale": "0"
+                    }
+                },
+                {
+                    "execValues": {
+                        "dpbp.index": "0",
+                        "ep.index": "1"
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 102,
+                    "value": "1",
+                    "values": {
+                        "scale": "1"
+                    }
+                },
+                {
+                    "execValues": {
+                        "dpbp.index": "1",
+                        "ep.index": "1"
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 102,
+                    "value": "2",
+                    "values": {
+                        "scale": "2"
+                    }
+                },
+                {
+                    "execValues": {
+                        "dp.index": "0",
+                        "ep.index": "1"
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 102,
+                    "value": "3",
+                    "values": {
+                        "scale": "3"
+                    }
+                },
+                {
+                    "execValues": {
+                        "dpbp.index": "0",
+                        "ep.index": "1"
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 102,
+                    "value": "4",
+                    "values": {
+                        "scale": "4"
+                    }
+                },
+                {
+                    "execValues": {
+                        "ep.index": "1"
+                    },
+                    "extra": [
+                        "any",
+                        "same"
+                    ],
+                    "stateId": 78,
+                    "value": "a",
+                    "values": {
+                        "scale": "same"
+                    }
+                }
+            ],
+            "name": "scale",
+            "stateId": 29
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                        "ep.index": "1"
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 18,
+                    "value": "0",
+                    "values": {
+                        "index": "0"
+                    }
+                },
+                {
+                    "execValues": {
+                        "ep.index": "1"
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 18,
+                    "value": "1",
+                    "values": {
+                        "index": "1"
+                    }
+                },
+                {
+                    "execValues": {
+                        "ep.index": "1"
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 18,
+                    "value": "2",
+                    "values": {
+                        "index": "2"
+                    }
+                },
+                {
+                    "execValues": {
+                        "ep.index": "1"
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 29,
+                    "value": "2",
+                    "values": {
+                        "index": "-1"
+                    }
+                },
+                {
+                    "execValues": {
+                        "ep.index": "1"
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 78,
+                    "value": "2",
+                    "values": {
+                        "scale": "4"
+                    }
+                },
+                {
+                    "execValues": {
+                        "ep.index": "1"
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 11,
+                    "value": "2",
+                    "values": {
+                        "index": "-1"
+                    }
+                }
+            ],
+            "name": "dpbp",
+            "stateId": 18
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                        "any",
+                        "same"
+                    ],
+                    "stateId": 78,
+                    "value": "a",
+                    "values": {
+                        "soundSpeed": "same"
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                        "any",
+                        "same"
+                    ],
+                    "stateId": 48,
+                    "value": "a",
+                    "values": {
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                        "any",
+                        "same"
+                    ],
+                    "stateId": 86,
+                    "value": "a",
+                    "values": {
+                        "value": "same"
+                    }
+                }
+            ],
+            "name": "soundSpeed",
+            "stateId": 48
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                        "ep.index": "1"
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 23,
+                    "value": "0",
+                    "values": {
+                        "index": "0"
+                    }
+                },
+                {
+                    "execValues": {
+                        "ep.index": "1"
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 23,
+                    "value": "1",
+                    "values": {
+                        "index": "1"
+                    }
+                },
+                {
+                    "execValues": {
+                        "ep.index": "1"
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 78,
+                    "value": "0",
+                    "values": {
+                        "epMode": "0"
+                    }
+                },
+                {
+                    "execValues": {
+                        "ep.index": "1"
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 78,
+                    "value": "1",
+                    "values": {
+                        "epMode": "1"
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 26,
+                    "value": "0",
+                    "values": {
+                        "index": "-1"
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 26,
+                    "value": "1",
+                    "values": {
+                        "index": "-1"
+                    }
+                }
+            ],
+            "name": "o1o2",
+            "stateId": 23
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 26,
+                    "value": "pressed",
+                    "values": {
+                        "led": "0"
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 17,
+                    "value": "pressed",
+                    "values": {
+                        "led": "0"
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 11,
+                    "value": "pressed",
+                    "values": {
+                        "index": "-1"
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 13,
+                    "value": "pressed",
+                    "values": {
+                        "index": "-1"
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 29,
+                    "value": "pressed",
+                    "values": {
+                        "index": "-1"
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 18,
+                    "value": "pressed",
+                    "values": {
+                        "index": "-1"
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 6,
+                    "value": "pressed",
+                    "values": {
+                        "index": "-1"
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 23,
+                    "value": "pressed",
+                    "values": {
+                        "index": "-1"
+                    }
+                }
+            ],
+            "name": "reset",
+            "stateId": 17
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 10,
+                    "value": "0",
+                    "values": {
+                        "index": "0",
+                        "ledMode": ""
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 10,
+                    "value": "1",
+                    "values": {
+                        "index": "1",
+                        "ledMode": ""
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 78,
+                    "value": "0",
+                    "values": {
+                        "ledMode": "0"
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 78,
+                    "value": "1",
+                    "values": {
+                        "ledMode": "1"
+                    }
+                }
+            ],
+            "name": "lbpb",
+            "stateId": 10
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 19,
+                    "value": "pressed",
+                    "values": {
+                        "": ""
+                    }
+                }
+            ],
+            "name": "lb_pb",
+            "stateId": 999
+        },
+        {
+            "changes": [
+            ],
+            "name": "",
+            "stateId": 19
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                        "any",
+                        "same"
+                    ],
+                    "stateId": 91,
+                    "value": null,
+                    "values": {
+                    }
+                }
+            ],
+            "name": "vyr1",
+            "stateId": 91
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 26,
+                    "value": "pressed",
+                    "values": {
+                        "index": "-1"
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 11,
+                    "value": "pressed",
+                    "values": {
+                        "index": "-1"
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 13,
+                    "value": "pressed",
+                    "values": {
+                        "index": "-1"
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 29,
+                    "value": "pressed",
+                    "values": {
+                        "index": "-1"
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 25,
+                    "value": "pressed",
+                    "values": {
+                        "led": "0"
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 18,
+                    "value": "pressed",
+                    "values": {
+                        "index": "-1"
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 6,
+                    "value": "pressed",
+                    "values": {
+                        "index": "-1"
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 23,
+                    "value": "pressed",
+                    "values": {
+                        "index": "-1"
+                    }
+                }
+            ],
+            "name": "goalLost",
+            "stateId": 25
+        },
+        {
+            "changes": [
+            ],
+            "name": "",
+            "stateId": 0
+        },
+        {
+            "changes": [
+            ],
+            "name": "rectMonitor5",
+            "stateId": 102
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                        "any",
+                        "same"
+                    ],
+                    "stateId": 78,
+                    "value": null,
+                    "values": {
+                        "distance": "same"
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                        "any",
+                        "same"
+                    ],
+                    "stateId": 92,
+                    "value": null,
+                    "values": {
+                    }
+                }
+            ],
+            "name": "distance1",
+            "stateId": 92
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                        "any",
+                        "same"
+                    ],
+                    "stateId": 78,
+                    "value": null,
+                    "values": {
+                        "peleng": "same"
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                        "any",
+                        "same"
+                    ],
+                    "stateId": 89,
+                    "value": null,
+                    "values": {
+                    }
+                }
+            ],
+            "name": "peleng1",
+            "stateId": 89
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 78,
+                    "value": "pressed",
+                    "values": {
+                        "cursorAngle": "increment"
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 54,
+                    "value": "pressed",
+                    "values": {
+                        "led": "1",
+                        "ledMode": "blink"
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 54,
+                    "value": "released",
+                    "values": {
+                        "led": "0",
+                        "ledMode": ""
+                    }
+                }
+            ],
+            "name": "sightInc1",
+            "stateId": 54
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                        "a"
+                    ],
+                    "stateId": 78,
+                    "value": "pressed",
+                    "values": {
+                        "cursorAngle": "decrement"
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 37,
+                    "value": "pressed",
+                    "values": {
+                        "led": "1",
+                        "ledMode": "blink"
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 37,
+                    "value": "released",
+                    "values": {
+                        "led": "0",
+                        "ledMode": ""
+                    }
+                }
+            ],
+            "name": "sightDec1",
+            "stateId": 37
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                        "any",
+                        "same"
+                    ],
+                    "stateId": 102,
+                    "value": null,
+                    "values": {
+                        "vyr": "same"
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                        "any",
+                        "same"
+                    ],
+                    "stateId": 96,
+                    "value": null,
+                    "values": {
+                    }
+                }
+            ],
+            "name": "vyr3",
+            "stateId": 96
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                        "a"
+                    ],
+                    "stateId": 102,
+                    "value": "pressed",
+                    "values": {
+                        "cursorAngle": "increment"
+                    }
+                }
+            ],
+            "name": "sightInc3",
+            "stateId": 61
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                        "any",
+                        "same"
+                    ],
+                    "stateId": 79,
+                    "value": null,
+                    "values": {
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                        "any",
+                        "same"
+                    ],
+                    "stateId": 78,
+                    "value": null,
+                    "values": {
+                        "amplifier": "same"
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 78,
+                    "value": null,
+                    "values": {
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 78,
+                    "value": null,
+                    "values": {
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 78,
+                    "value": null,
+                    "values": {
+                    }
+                }
+            ],
+            "name": "amplifier4",
+            "stateId": 79
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                        "any",
+                        "same"
+                    ],
+                    "stateId": 78,
+                    "value": "a",
+                    "values": {
+                        "brightness": "same"
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                        "any",
+                        "same"
+                    ],
+                    "stateId": 80,
+                    "value": null,
+                    "values": {
+                    }
+                }
+            ],
+            "name": "brightness4",
+            "stateId": 80
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                        "any",
+                        "same"
+                    ],
+                    "stateId": 78,
+                    "value": null,
+                    "values": {
+                        "cursorBrightness": "same"
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                        "any",
+                        "same"
+                    ],
+                    "stateId": 81,
+                    "value": null,
+                    "values": {
+                    }
+                }
+            ],
+            "name": "sightBrightness4",
+            "stateId": 81
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                    ],
+                    "stateId": 102,
+                    "value": "pressed",
+                    "values": {
+                        "cursorAngle": "decrement"
+                    }
+                }
+            ],
+            "name": "sightDec3",
+            "stateId": 62
+        },
+        {
+            "changes": [
+            ],
+            "name": "soundSpeedIndicator",
+            "stateId": 86
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                        "any",
+                        "same"
+                    ],
+                    "stateId": 94,
+                    "value": null,
+                    "values": {
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                        "any",
+                        "same"
+                    ],
+                    "stateId": 102,
+                    "value": null,
+                    "values": {
+                        "peleng": "same"
+                    }
+                }
+            ],
+            "name": "peleng3",
+            "stateId": 94
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                        "any",
+                        "same"
+                    ],
+                    "stateId": 97,
+                    "value": null,
+                    "values": {
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                        "any",
+                        "same"
+                    ],
+                    "stateId": 102,
+                    "value": null,
+                    "values": {
+                        "distance": "same"
+                    }
+                }
+            ],
+            "name": "distance3",
+            "stateId": 97
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                        "any",
+                        "same"
+                    ],
+                    "stateId": 102,
+                    "value": null,
+                    "values": {
+                        "amplifier": "same"
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                        "any",
+                        "same"
+                    ],
+                    "stateId": 103,
+                    "value": null,
+                    "values": {
+                    }
+                }
+            ],
+            "name": "amplifier5",
+            "stateId": 103
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                        "any",
+                        "same"
+                    ],
+                    "stateId": 102,
+                    "value": null,
+                    "values": {
+                        "brightness": "same"
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                        "any",
+                        "same"
+                    ],
+                    "stateId": 104,
+                    "value": null,
+                    "values": {
+                    }
+                }
+            ],
+            "name": "brightness5",
+            "stateId": 104
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                        "any",
+                        "same"
+                    ],
+                    "stateId": 102,
+                    "value": null,
+                    "values": {
+                        "cursorBrightness": "same"
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": [
+                        "any",
+                        "same"
+                    ],
+                    "stateId": 105,
+                    "value": null,
+                    "values": {
+                    }
+                }
+            ],
+            "name": "sightBrightness5",
+            "stateId": 105
+        }
+    ]
+}

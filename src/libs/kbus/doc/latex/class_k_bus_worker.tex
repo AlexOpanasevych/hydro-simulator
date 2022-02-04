@@ -1,0 +1,54 @@
+\hypertarget{class_k_bus_worker}{}\doxysection{K\+Bus\+Worker Class Reference}
+\label{class_k_bus_worker}\index{KBusWorker@{KBusWorker}}
+
+
+Base class for all \mbox{\hyperlink{class_k_bus}{K\+Bus}} Workers.  
+
+
+
+
+{\ttfamily \#include $<$kbusworker.\+h$>$}
+
+Inheritance diagram for K\+Bus\+Worker\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_k_bus_worker}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_k_bus_worker_ab090fdd4a57724f2191141f3c24a7527}\label{class_k_bus_worker_ab090fdd4a57724f2191141f3c24a7527}} 
+virtual bool {\bfseries proceed\+Packet} (const Q\+Byte\+Array \&ar, int msec)=0
+\item 
+\mbox{\Hypertarget{class_k_bus_worker_a826d84d89666a81422c603ba2550ee26}\label{class_k_bus_worker_a826d84d89666a81422c603ba2550ee26}} 
+virtual Q\+List$<$ Q\+Byte\+Array $>$ {\bfseries get\+Packets\+For\+Send} (int msec)=0
+\item 
+\mbox{\Hypertarget{class_k_bus_worker_a5faf5b2b54a36acc4f1a030add0684d5}\label{class_k_bus_worker_a5faf5b2b54a36acc4f1a030add0684d5}} 
+void {\bfseries set\+ID} (uint8\+\_\+t id)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_k_bus_worker_a1493721902cc7647105bd3eb086407be}\label{class_k_bus_worker_a1493721902cc7647105bd3eb086407be}} 
+uint8\+\_\+t {\bfseries id}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Base class for all \mbox{\hyperlink{class_k_bus}{K\+Bus}} Workers. 
+
+\begin{DoxyAuthor}{Authors}
+oleksii 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+0.\+1 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+26.\+04.\+2021 
+\end{DoxyDate}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/sit23/\+Documents/\+Application\+Projects\+Source/\+K\+Bus/base/kbusworker.\+h\end{DoxyCompactItemize}

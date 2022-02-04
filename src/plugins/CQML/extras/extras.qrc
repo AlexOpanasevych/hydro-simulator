@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>MenuItems.qml</file>
+        <file>StackMenu.qml</file>
+    </qresource>
+</RCC>

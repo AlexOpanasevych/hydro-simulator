@@ -1,0 +1,92 @@
+\hypertarget{class_k_raw_parser}{}\doxysection{K\+Raw\+Parser Class Reference}
+\label{class_k_raw_parser}\index{KRawParser@{KRawParser}}
+
+
+One of the implementations \mbox{\hyperlink{class_k_communicator}{K\+Communicator}}.  
+
+
+
+
+{\ttfamily \#include $<$K\+Raw\+Parser.\+h$>$}
+
+Inheritance diagram for K\+Raw\+Parser\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_k_raw_parser}
+\end{center}
+\end{figure}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{struct_k_raw_parser_1_1_frame}{Frame}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_k_raw_parser_a7c0edf02909fe6ed13ca923cb4542b11}\label{class_k_raw_parser_a7c0edf02909fe6ed13ca923cb4542b11}} 
+void {\bfseries proceed\+Byte} (uint8\+\_\+t byte)
+\item 
+Q\+Byte\+Array \mbox{\hyperlink{class_k_raw_parser_a7420e58a9dade488f4c291dce22ecc8f}{shield\+Frame}} (Q\+Byte\+Array data)
+\begin{DoxyCompactList}\small\item\em Get data and shielded it. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_k_raw_parser_a50cedabed14f2696c8936580df149658}\label{class_k_raw_parser_a50cedabed14f2696c8936580df149658}} 
+Q\+Byte\+Array {\bfseries read\+Unshielded\+Frame} ()
+\item 
+\mbox{\Hypertarget{class_k_raw_parser_a2182b4debeb6ee223e12c2f1610df92e}\label{class_k_raw_parser_a2182b4debeb6ee223e12c2f1610df92e}} 
+uint8\+\_\+t {\bfseries get\+Max\+Frame\+Length} ()
+\item 
+\mbox{\Hypertarget{class_k_raw_parser_ae86fc2ec0401efb8ee11cbb2668d6e25}\label{class_k_raw_parser_ae86fc2ec0401efb8ee11cbb2668d6e25}} 
+{\footnotesize template$<$typename T $>$ }\\void {\bfseries proceed\+Array} (const T \&array)
+\item 
+\mbox{\Hypertarget{class_k_raw_parser_ae13b9924066c583d5f0514a3c762eb3f}\label{class_k_raw_parser_ae13b9924066c583d5f0514a3c762eb3f}} 
+{\footnotesize template$<$typename T $>$ }\\void {\bfseries proceed\+Array} (T array, size\+\_\+t size)
+\item 
+\mbox{\Hypertarget{class_k_raw_parser_a1e00ffe075a00c1a7f90b74d31604bd9}\label{class_k_raw_parser_a1e00ffe075a00c1a7f90b74d31604bd9}} 
+void {\bfseries proceed\+Raw\+Data} (const Q\+Byte\+Array \&) override
+\item 
+\mbox{\Hypertarget{class_k_raw_parser_a52becc8a9325b2e2693ecb36fcdf3787}\label{class_k_raw_parser_a52becc8a9325b2e2693ecb36fcdf3787}} 
+void {\bfseries send} (Q\+Byte\+Array \&) override
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+One of the implementations \mbox{\hyperlink{class_k_communicator}{K\+Communicator}}. 
+
+\begin{DoxyAuthor}{Authors}
+oleksii 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+0.\+1 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+26.\+04.\+2021
+\end{DoxyDate}
+Very reliable and fast guarantee of data integrity and packet formation 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_k_raw_parser_a7420e58a9dade488f4c291dce22ecc8f}\label{class_k_raw_parser_a7420e58a9dade488f4c291dce22ecc8f}} 
+\index{KRawParser@{KRawParser}!shieldFrame@{shieldFrame}}
+\index{shieldFrame@{shieldFrame}!KRawParser@{KRawParser}}
+\doxysubsubsection{\texorpdfstring{shieldFrame()}{shieldFrame()}}
+{\footnotesize\ttfamily Q\+Byte\+Array K\+Raw\+Parser\+::shield\+Frame (\begin{DoxyParamCaption}\item[{Q\+Byte\+Array}]{data }\end{DoxyParamCaption})}
+
+
+
+Get data and shielded it. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em array} & -\/ data \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em shielded} & data \\
+\hline
+\end{DoxyRetVals}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/sit23/\+Documents/\+Application\+Projects\+Source/\+K\+Bus/coms/K\+Raw\+Parser.\+h\item 
+C\+:/\+Users/sit23/\+Documents/\+Application\+Projects\+Source/\+K\+Bus/coms/K\+Raw\+Parser.\+cpp\end{DoxyCompactItemize}

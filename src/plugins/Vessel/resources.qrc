@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/Vessel">
+        <file>smoke.gif</file>
+        <file>dead.png</file>
+    </qresource>
+</RCC>

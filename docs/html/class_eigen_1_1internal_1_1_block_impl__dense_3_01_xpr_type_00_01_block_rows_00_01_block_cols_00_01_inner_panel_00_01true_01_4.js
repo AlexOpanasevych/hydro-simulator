@@ -1,0 +1,19 @@
+var class_eigen_1_1internal_1_1_block_impl__dense_3_01_xpr_type_00_01_block_rows_00_01_block_cols_00_01_inner_panel_00_01true_01_4 =
+[
+    [ "Base", "class_eigen_1_1internal_1_1_block_impl__dense_3_01_xpr_type_00_01_block_rows_00_01_block_cols_00_01_inner_panel_00_01true_01_4.html#a1c15fa6e6d001b1dd257885b13258b2b", null ],
+    [ "BlockImpl_dense", "class_eigen_1_1internal_1_1_block_impl__dense_3_01_xpr_type_00_01_block_rows_00_01_block_cols_00_01_inner_panel_00_01true_01_4.html#a72b340bbcd3acefc375e7a5eacd790f5", null ],
+    [ "BlockImpl_dense", "class_eigen_1_1internal_1_1_block_impl__dense_3_01_xpr_type_00_01_block_rows_00_01_block_cols_00_01_inner_panel_00_01true_01_4.html#aaa47737cd19396275d5bcb6d9520e49f", null ],
+    [ "BlockImpl_dense", "class_eigen_1_1internal_1_1_block_impl__dense_3_01_xpr_type_00_01_block_rows_00_01_block_cols_00_01_inner_panel_00_01true_01_4.html#a9e2d1e641a5000ca0c10b1eaeab84adf", null ],
+    [ "BlockImpl_dense", "class_eigen_1_1internal_1_1_block_impl__dense_3_01_xpr_type_00_01_block_rows_00_01_block_cols_00_01_inner_panel_00_01true_01_4.html#a76cc797c9cfccc1af4cf13107d271863", null ],
+    [ "init", "class_eigen_1_1internal_1_1_block_impl__dense_3_01_xpr_type_00_01_block_rows_00_01_block_cols_00_01_inner_panel_00_01true_01_4.html#a2930e1284a7cd0d10ca7af46c50520e2", null ],
+    [ "innerStride", "class_eigen_1_1internal_1_1_block_impl__dense_3_01_xpr_type_00_01_block_rows_00_01_block_cols_00_01_inner_panel_00_01true_01_4.html#a91fea2e027a3b057b5f70ab52a1a24b7", null ],
+    [ "nestedExpression", "class_eigen_1_1internal_1_1_block_impl__dense_3_01_xpr_type_00_01_block_rows_00_01_block_cols_00_01_inner_panel_00_01true_01_4.html#af4cf3afb073a0e36d166c0ab458ec446", null ],
+    [ "nestedExpression", "class_eigen_1_1internal_1_1_block_impl__dense_3_01_xpr_type_00_01_block_rows_00_01_block_cols_00_01_inner_panel_00_01true_01_4.html#a40239b9d0e6a94820f79cf2ff76ccf1f", null ],
+    [ "outerStride", "class_eigen_1_1internal_1_1_block_impl__dense_3_01_xpr_type_00_01_block_rows_00_01_block_cols_00_01_inner_panel_00_01true_01_4.html#ac6f37b9a06897f0891fcd7b65ce2800e", null ],
+    [ "startCol", "class_eigen_1_1internal_1_1_block_impl__dense_3_01_xpr_type_00_01_block_rows_00_01_block_cols_00_01_inner_panel_00_01true_01_4.html#aad398a270fefb4092098de434d1d48d0", null ],
+    [ "startRow", "class_eigen_1_1internal_1_1_block_impl__dense_3_01_xpr_type_00_01_block_rows_00_01_block_cols_00_01_inner_panel_00_01true_01_4.html#acba1ac3133130df90650b256338b64df", null ],
+    [ "m_outerStride", "class_eigen_1_1internal_1_1_block_impl__dense_3_01_xpr_type_00_01_block_rows_00_01_block_cols_00_01_inner_panel_00_01true_01_4.html#ae0744034189ad873da698feebfe0a374", null ],
+    [ "m_startCol", "class_eigen_1_1internal_1_1_block_impl__dense_3_01_xpr_type_00_01_block_rows_00_01_block_cols_00_01_inner_panel_00_01true_01_4.html#ade5fdd1437ea358eb0040a07d3f726c5", null ],
+    [ "m_startRow", "class_eigen_1_1internal_1_1_block_impl__dense_3_01_xpr_type_00_01_block_rows_00_01_block_cols_00_01_inner_panel_00_01true_01_4.html#a8980847dbfee6f4a64f705640cb976b6", null ],
+    [ "m_xpr", "class_eigen_1_1internal_1_1_block_impl__dense_3_01_xpr_type_00_01_block_rows_00_01_block_cols_00_01_inner_panel_00_01true_01_4.html#a746d7500a44f0475b2d11ffb0476135b", null ]
+];

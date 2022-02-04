@@ -1,0 +1,60 @@
+\hypertarget{class_k_communicator}{}\doxysection{K\+Communicator Class Reference}
+\label{class_k_communicator}\index{KCommunicator@{KCommunicator}}
+
+
+Base class for all \mbox{\hyperlink{class_k_bus}{K\+Bus}} Communicators.  
+
+
+
+
+{\ttfamily \#include $<$K\+Communicator.\+h$>$}
+
+Inheritance diagram for K\+Communicator\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_k_communicator}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_k_communicator_a0d166e4f298e6015aa314d9861b3f3a6}\label{class_k_communicator_a0d166e4f298e6015aa314d9861b3f3a6}} 
+virtual void {\bfseries send} (Q\+Byte\+Array \&)=0
+\item 
+\mbox{\Hypertarget{class_k_communicator_a3d91ffc01a1e92b7aad18b776f6f2057}\label{class_k_communicator_a3d91ffc01a1e92b7aad18b776f6f2057}} 
+virtual void {\bfseries proceed\+Raw\+Data} (const Q\+Byte\+Array \&)=0
+\item 
+\mbox{\Hypertarget{class_k_communicator_a5459fbac1b602f4f52faba238a13524a}\label{class_k_communicator_a5459fbac1b602f4f52faba238a13524a}} 
+void {\bfseries set\+Receive\+Pack\+Callback} (std\+::function$<$ void(const Q\+Byte\+Array \&)$>$ receive\+Callback)
+\item 
+\mbox{\Hypertarget{class_k_communicator_a100e0577a52850119824619642b4bcb5}\label{class_k_communicator_a100e0577a52850119824619642b4bcb5}} 
+void {\bfseries set\+Transmit\+Pack\+Callback} (std\+::function$<$ void(const Q\+Byte\+Array \&)$>$ transmit\+Callback)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_k_communicator_adb67e138e439adf8b40aed5b02fe84b5}\label{class_k_communicator_adb67e138e439adf8b40aed5b02fe84b5}} 
+std\+::function$<$ void(const Q\+Byte\+Array \&)$>$ {\bfseries receive\+Callback} = nullptr
+\item 
+\mbox{\Hypertarget{class_k_communicator_af93a4eaca7557c817decd761e32f6566}\label{class_k_communicator_af93a4eaca7557c817decd761e32f6566}} 
+std\+::function$<$ void(const Q\+Byte\+Array \&)$>$ {\bfseries transmit\+Callback} = nullptr
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Base class for all \mbox{\hyperlink{class_k_bus}{K\+Bus}} Communicators. 
+
+\begin{DoxyAuthor}{Authors}
+oleksii 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+0.\+1 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+26.\+04.\+2021 
+\end{DoxyDate}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/sit23/\+Documents/\+Application\+Projects\+Source/\+K\+Bus/base/K\+Communicator.\+h\end{DoxyCompactItemize}

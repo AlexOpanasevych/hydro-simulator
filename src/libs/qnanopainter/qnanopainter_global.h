@@ -1,0 +1,12 @@
+#ifndef QNANOPAINTER_GLOBAL_H
+#define QNANOPAINTER_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(QNANOPAINTER_LIBRARY)
+#  define QNANOPAINTER_EXPORT Q_DECL_EXPORT
+#else
+#  define QNANOPAINTER_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // QNANOPAINTER_GLOBAL_H

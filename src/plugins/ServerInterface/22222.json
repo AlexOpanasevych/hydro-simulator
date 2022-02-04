@@ -1,0 +1,3484 @@
+{
+    "blocks": [
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "workStart",
+            "stateId": 4,
+            "uuid": "d205426b-54b2-4024-bef5-24cb2b685d64",
+            "x": 776,
+            "y": 400
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "ep",
+            "stateId": 6,
+            "uuid": "47170d61-fc90-4370-8554-9a28d028ea17",
+            "x": 824,
+            "y": 706
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "asc",
+            "stateId": 9,
+            "uuid": "904bcdf0-10b8-4015-a4c7-38a16164cdd1",
+            "x": 496,
+            "y": 683
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "ep",
+            "stateId": 6,
+            "uuid": "e5685032-1dc0-4506-8fc1-2b26f76a8750",
+            "x": 77,
+            "y": 1219
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "s1s2",
+            "stateId": 26,
+            "uuid": "316a0088-22b1-4d68-971f-c40bfa752927",
+            "x": 446,
+            "y": 1126
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "rectMonitor4",
+            "stateId": 78,
+            "uuid": "75be1eca-4e5a-4233-a301-39dd462c7175",
+            "x": 149,
+            "y": 826
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "searchMode",
+            "stateId": 11,
+            "uuid": "d2cbc36c-3c3b-4f16-81cc-b8ee920f9854",
+            "x": 1115,
+            "y": 503
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "paba",
+            "stateId": 13,
+            "uuid": "73033ba6-2891-4848-ae4c-581a812b24cb",
+            "x": 1101,
+            "y": 634
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "scale",
+            "stateId": 29,
+            "uuid": "554132c4-be34-432e-a323-4aafdd732571",
+            "x": 1063,
+            "y": 773
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "dpbp",
+            "stateId": 18,
+            "uuid": "49a08419-8962-4794-8f34-c043e398f200",
+            "x": 1072,
+            "y": 912
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "soundSpeed",
+            "stateId": 48,
+            "uuid": "bd5f3042-cc56-455b-a719-e43581039cad",
+            "x": 796,
+            "y": 2005
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "o1o2",
+            "stateId": 23,
+            "uuid": "52a4dd61-d7c3-4234-b045-7a8370a2e669",
+            "x": 653,
+            "y": 796
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "reset",
+            "stateId": 17,
+            "uuid": "1b660256-2baa-4226-a476-1c87017db7b5",
+            "x": 551,
+            "y": 1414
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "lbpb",
+            "stateId": 10,
+            "uuid": "7a9022c8-6102-44f2-84e6-7da819049dd5",
+            "x": 97,
+            "y": 613
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "lb_pb",
+            "stateId": 999,
+            "uuid": "0ad489c6-ebee-4b3e-9cf7-f291de64cb03",
+            "x": 1536,
+            "y": 1200
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "",
+            "stateId": 19,
+            "uuid": "bb3f09b2-ec35-4914-91f8-4ebcf5f2e2f8",
+            "x": 1504,
+            "y": 1402
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "vyr1",
+            "stateId": 91,
+            "uuid": "f9d1e87f-4ef4-461a-abf1-77c9d94e7111",
+            "x": 1288,
+            "y": 2633
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "reset",
+            "stateId": 17,
+            "uuid": "e03c13bc-e82a-4d0a-929a-f6a10214b952",
+            "x": 1668,
+            "y": 462
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "scale",
+            "stateId": 29,
+            "uuid": "6563f3eb-2a36-4221-82f4-94448dc01f17",
+            "x": 2280,
+            "y": 840
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "goalLost",
+            "stateId": 25,
+            "uuid": "5c2744dc-de8a-4450-b0ae-7523b5cbc24a",
+            "x": 308,
+            "y": 1416
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "goalLost",
+            "stateId": 25,
+            "uuid": "2d5722e3-6a59-46c8-9b9f-fc291fe06134",
+            "x": 1668,
+            "y": 726
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "rectMonitor4",
+            "stateId": 78,
+            "uuid": "bb2931d8-1a89-4d5c-8aea-3e3f42442f7b",
+            "x": 2086,
+            "y": 818
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "dpbp",
+            "stateId": 18,
+            "uuid": "435561c5-ae52-40df-b9f1-885c5e39d428",
+            "x": 2330,
+            "y": 626
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "",
+            "stateId": 0,
+            "uuid": "51b63544-a328-469e-9ee6-526bec726a54",
+            "x": 4751,
+            "y": 2099
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "угол",
+            "name": "searchMode",
+            "stateId": 11,
+            "uuid": "dda1acb9-cadf-4bad-8e8a-6df0eda44ea2",
+            "x": 2341,
+            "y": 1013
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "rectMonitor5",
+            "stateId": 102,
+            "uuid": "1505a7a7-23ca-4ade-b791-f2579d2ee4aa",
+            "x": 2611,
+            "y": 871
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "",
+            "stateId": 0,
+            "uuid": "76a5caea-f41f-4a97-b5a1-6fc06926f325",
+            "x": 3466,
+            "y": 1394
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "",
+            "stateId": 0,
+            "uuid": "babc1265-080c-43b3-bf0a-479814f8137d",
+            "x": 3631,
+            "y": 1400
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "",
+            "stateId": 0,
+            "uuid": "f137e87b-7e1e-4a00-a047-5485c88d83fd",
+            "x": 3811,
+            "y": 1412
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "",
+            "stateId": 0,
+            "uuid": "eb03b0da-53ba-43d2-bef4-2c73c66025e8",
+            "x": 3976,
+            "y": 1417
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "",
+            "stateId": 0,
+            "uuid": "272009f0-f78b-4308-b3d2-3b45cdf25338",
+            "x": 4261,
+            "y": 1436
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "",
+            "stateId": 0,
+            "uuid": "a757f0c8-77f9-4263-bfb0-21ccac6780db",
+            "x": 4457,
+            "y": 1437
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "",
+            "stateId": 0,
+            "uuid": "78ddf78f-d018-496d-8d41-fd25b97a01b9",
+            "x": 4571,
+            "y": 1415
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "",
+            "stateId": 0,
+            "uuid": "bbe885b0-b964-433f-81df-bd7577ccc826",
+            "x": 4661,
+            "y": 1430
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "",
+            "stateId": 0,
+            "uuid": "cce13c5f-7cf7-4b9a-9e94-35db191b608b",
+            "x": 4758,
+            "y": 1434
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "",
+            "stateId": 0,
+            "uuid": "0cb2a80b-fabe-4a97-8942-659cdf2f50b5",
+            "x": 4823,
+            "y": 1437
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "",
+            "stateId": 0,
+            "uuid": "b0e10df5-d909-475d-ab1d-a970abb6e75f",
+            "x": 4892,
+            "y": 1437
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "",
+            "stateId": 0,
+            "uuid": "4128cbbd-ae14-4d4a-b09a-8903f8bc8721",
+            "x": 5040,
+            "y": 1421
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "",
+            "stateId": 0,
+            "uuid": "f9ba160e-a525-4083-86bd-87afd6593fc5",
+            "x": 5229,
+            "y": 1421
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "",
+            "stateId": 0,
+            "uuid": "bcf2df74-1126-4503-9ff1-bb9e20c4c01f",
+            "x": 5420,
+            "y": 1431
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "",
+            "stateId": 0,
+            "uuid": "d73ad57f-34a0-4ad9-acbc-d12b220fe80e",
+            "x": 5568,
+            "y": 1446
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "",
+            "stateId": 0,
+            "uuid": "8e88e4aa-18b2-4c12-ad3d-f38892218e2c",
+            "x": 5748,
+            "y": 1446
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "",
+            "stateId": 0,
+            "uuid": "1c5661d1-201d-41af-993c-5a47ab9523b6",
+            "x": 5956,
+            "y": 1449
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "",
+            "stateId": 0,
+            "uuid": "db1c4535-d85a-49d0-9538-d67fb2b43193",
+            "x": 6108,
+            "y": 1454
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "",
+            "stateId": 0,
+            "uuid": "ff7c3214-55e3-4f79-b15c-3c1f5498b432",
+            "x": 6355,
+            "y": 1444
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "",
+            "stateId": 0,
+            "uuid": "d008574c-17b3-4b6b-9cb6-7cd1221b7030",
+            "x": 6549,
+            "y": 1460
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "дистанція",
+            "name": "distance1",
+            "stateId": 92,
+            "uuid": "f700c584-7194-4051-b83d-878847cd0e34",
+            "x": 1424,
+            "y": 2619
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "peleng1",
+            "stateId": 89,
+            "uuid": "b03a58e5-8fe7-45e3-9012-fada57980fe5",
+            "x": 1166,
+            "y": 2634
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "візир інремент",
+            "name": "sightInc1",
+            "stateId": 54,
+            "uuid": "9afce473-860d-420f-b8a8-7c7df47302c6",
+            "x": 894,
+            "y": 2238
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "візир декремент",
+            "name": "sightDec1",
+            "stateId": 37,
+            "uuid": "90d46653-88db-489a-8573-0121e7d1ec52",
+            "x": 920,
+            "y": 2410
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "",
+            "stateId": 0,
+            "uuid": "3c2a5d48-9e1d-4ada-8e24-50334a481d52",
+            "x": 7607,
+            "y": 1430
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "",
+            "stateId": 0,
+            "uuid": "e041e134-ce4d-473b-8905-0e124bfab487",
+            "x": 7786,
+            "y": 1439
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "",
+            "stateId": 0,
+            "uuid": "a8409fbb-e9af-467b-bb11-7523c7b045c8",
+            "x": 7998,
+            "y": 1404
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "",
+            "stateId": 0,
+            "uuid": "11675d3d-1a17-4e27-9e11-fa42c82d4919",
+            "x": 8263,
+            "y": 1406
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "",
+            "stateId": 0,
+            "uuid": "0d876557-e2f0-4766-9190-d3b80bd7e583",
+            "x": 8410,
+            "y": 1404
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "",
+            "stateId": 0,
+            "uuid": "bc392e28-efa4-4b9d-a5d5-63e192d91e80",
+            "x": 8638,
+            "y": 1412
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "",
+            "stateId": 0,
+            "uuid": "2a06da3c-9134-4b55-b210-8475f4ae868f",
+            "x": 8853,
+            "y": 1416
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "",
+            "stateId": 0,
+            "uuid": "1fee94c7-4707-4ac1-ae09-146ee886d120",
+            "x": 9058,
+            "y": 1420
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "",
+            "stateId": 0,
+            "uuid": "675cefd2-8d66-40f5-a718-588961c0fee3",
+            "x": 9232,
+            "y": 1422
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "",
+            "stateId": 0,
+            "uuid": "20481912-b245-4d6e-9096-06000e65f853",
+            "x": 9433,
+            "y": 1420
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "",
+            "stateId": 0,
+            "uuid": "04a3b7fe-2893-4e67-b924-32ccab4eb11d",
+            "x": 9648,
+            "y": 1420
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "",
+            "stateId": 0,
+            "uuid": "760dce15-3a11-444e-9b9b-909087b4769e",
+            "x": 9820,
+            "y": 1420
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "vyr3",
+            "stateId": 96,
+            "uuid": "07998fc4-a77c-42c9-830f-a6152680b59d",
+            "x": 1753,
+            "y": 2490
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "sightInc3",
+            "stateId": 61,
+            "uuid": "c4ed0505-f462-46bc-8010-d26cf595a7fe",
+            "x": 2054,
+            "y": 2061
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "монітор на 4 екрані",
+            "name": "rectMonitor4",
+            "stateId": 78,
+            "uuid": "8f4f1017-f07f-48eb-9538-60dce7a499dd",
+            "x": 1238,
+            "y": 2332
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "amplifier4",
+            "stateId": 79,
+            "uuid": "45e4ed86-f8b3-4c17-bf7e-06ee06396c2b",
+            "x": 1018,
+            "y": 1882
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "brightness4",
+            "stateId": 80,
+            "uuid": "0e42d499-431a-42ee-9e25-b1fb24d1a01a",
+            "x": 1158,
+            "y": 1885
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "sightBrightness4",
+            "stateId": 81,
+            "uuid": "056d6345-f0aa-4612-aef1-670aa570351c",
+            "x": 1321,
+            "y": 1893
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "",
+            "stateId": 0,
+            "uuid": "36345feb-8cb7-4fe9-afa5-863f29d182a7",
+            "x": 3717,
+            "y": 1560
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "",
+            "stateId": 0,
+            "uuid": "d5ede82b-4dca-4b2b-a323-8934f779ba33",
+            "x": 3835,
+            "y": 1564
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "",
+            "stateId": 0,
+            "uuid": "15154ca5-1324-491c-a32f-764d849de63c",
+            "x": 3995,
+            "y": 1564
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "",
+            "stateId": 0,
+            "uuid": "db533763-aeaf-43e8-bbfe-c674dccb90cf",
+            "x": 4087,
+            "y": 1564
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "",
+            "stateId": 0,
+            "uuid": "dbdf8931-19d2-4fd4-a98e-1a21a7407067",
+            "x": 4262,
+            "y": 1564
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "",
+            "stateId": 0,
+            "uuid": "14711530-2f0e-4040-a320-33127388d8a9",
+            "x": 4499,
+            "y": 1556
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "",
+            "stateId": 0,
+            "uuid": "f12fb158-d351-48c3-8dee-3c8e18f5bc8b",
+            "x": 4621,
+            "y": 1556
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "sightDec3",
+            "stateId": 62,
+            "uuid": "fa3b0e89-6eb5-47da-8872-2e9447bbdd26",
+            "x": 2061,
+            "y": 2259
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "",
+            "stateId": 0,
+            "uuid": "a04ea3f1-41db-4b66-8593-a3fb2ff2ce83",
+            "x": 5018,
+            "y": 1548
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "soundSpeedIndicator",
+            "stateId": 86,
+            "uuid": "0e12e512-0107-4f31-8c8b-4d3f51eceaee",
+            "x": 445,
+            "y": 2014
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "пеленг крутик",
+            "name": "peleng3",
+            "stateId": 94,
+            "uuid": "b73dec21-390a-4e4c-8ee5-0e93a4e712af",
+            "x": 1559,
+            "y": 2432
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "",
+            "stateId": 0,
+            "uuid": "3732fc1a-7d9f-4366-bb40-4a18cdd6ff2f",
+            "x": 627,
+            "y": 2338
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "руль який використовується щоб змінювати курс на ціль",
+            "name": "distance3",
+            "stateId": 97,
+            "uuid": "e39a6e75-6bb4-4205-85b3-b4e2bdf651c9",
+            "x": 1976,
+            "y": 2493
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "rectMonitor5",
+            "stateId": 102,
+            "uuid": "8e414806-3967-4371-bd66-534d6cffaefb",
+            "x": 1728,
+            "y": 2277
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "amplifier5",
+            "stateId": 103,
+            "uuid": "05fbdcd0-47bb-478d-958c-92e284383dca",
+            "x": 1541,
+            "y": 1892
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "brightness5",
+            "stateId": 104,
+            "uuid": "4f8d77b7-9a28-4f60-b6e6-98b62f9b9b4a",
+            "x": 1686,
+            "y": 1891
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "sightBrightness5",
+            "stateId": 105,
+            "uuid": "5328fb79-b62c-4d7a-a081-9ebfa8357e8c",
+            "x": 1835,
+            "y": 1904
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "",
+            "stateId": 0,
+            "uuid": "fd88a656-68c5-4c5f-a41e-ccac56df8382",
+            "x": 6113,
+            "y": 1566
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "",
+            "stateId": 0,
+            "uuid": "460797ee-25e5-4bf3-9a0f-d81b03f80db7",
+            "x": 6231,
+            "y": 1565
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "",
+            "stateId": 0,
+            "uuid": "3969633e-b4da-4b0a-bae4-f68ac2dbf196",
+            "x": 6336,
+            "y": 1565
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "",
+            "stateId": 0,
+            "uuid": "00ecb8e1-05f5-4fd0-8cbb-af4e30379abe",
+            "x": 6493,
+            "y": 1605
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "",
+            "stateId": 0,
+            "uuid": "f3bad435-a20a-440e-aad3-c2179f6469b5",
+            "x": 6660,
+            "y": 1663
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "",
+            "stateId": 0,
+            "uuid": "a1e93b82-3e09-48a5-bf4f-259dff9930e3",
+            "x": 6838,
+            "y": 2045
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "",
+            "stateId": 0,
+            "uuid": "a1e93b82-3e09-48a5-bf4f-259dff9930e3",
+            "x": 6841,
+            "y": 2187
+        },
+        {
+            "color": "#d3d3d3",
+            "description": "",
+            "name": "scale",
+            "stateId": 29,
+            "uuid": "b415d93b-e88d-4684-be45-bde6e0017ca7",
+            "x": 895,
+            "y": 2636
+        }
+    ],
+    "links": [
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": null,
+                    "value": "1",
+                    "values": {
+                        "index": "0"
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": null,
+                    "value": "0",
+                    "values": {
+                        "index": "-1"
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 2,
+                "p1_edge": 4,
+                "p1_shift": 15,
+                "p2_edge": 2,
+                "p2_shift": 48.41493929304272,
+                "vertexes": [
+                ]
+            },
+            "item1": "47170d61-fc90-4370-8554-9a28d028ea17",
+            "item2": "d2cbc36c-3c3b-4f16-81cc-b8ee920f9854"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": null,
+                    "value": "1",
+                    "values": {
+                        "index": "0"
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": null,
+                    "value": "0",
+                    "values": {
+                        "index": "-1"
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 2,
+                "p1_edge": 4,
+                "p1_shift": 34,
+                "p2_edge": 2,
+                "p2_shift": 41,
+                "vertexes": [
+                ]
+            },
+            "item1": "47170d61-fc90-4370-8554-9a28d028ea17",
+            "item2": "73033ba6-2891-4848-ae4c-581a812b24cb"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": null,
+                    "value": "1",
+                    "values": {
+                        "index": "2"
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": null,
+                    "value": "0",
+                    "values": {
+                        "index": "-1"
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 1,
+                "p1_edge": 4,
+                "p1_shift": 60,
+                "p2_edge": 2,
+                "p2_shift": 42.16493536286157,
+                "vertexes": [
+                ]
+            },
+            "item1": "47170d61-fc90-4370-8554-9a28d028ea17",
+            "item2": "554132c4-be34-432e-a323-4aafdd732571"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": null,
+                    "value": "1",
+                    "values": {
+                        "index": "1"
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": null,
+                    "value": "0",
+                    "values": {
+                        "index": "-1"
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 2,
+                "p1_edge": 4,
+                "p1_shift": 79,
+                "p2_edge": 2,
+                "p2_shift": 51.91493314631384,
+                "vertexes": [
+                ]
+            },
+            "item1": "47170d61-fc90-4370-8554-9a28d028ea17",
+            "item2": "49a08419-8962-4794-8f34-c043e398f200"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": null,
+                    "value": "1",
+                    "values": {
+                        "index": "1"
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": null,
+                    "value": "0",
+                    "values": {
+                        "index": "0"
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": null,
+                    "value": "-1",
+                    "values": {
+                        "i": "-1"
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 1,
+                "p1_edge": 2,
+                "p1_shift": 41.61931259007292,
+                "p2_edge": 2,
+                "p2_shift": 78,
+                "vertexes": [
+                    {
+                        "x": 787.9617192154866,
+                        "y": 773.7700537775448
+                    }
+                ]
+            },
+            "item1": "47170d61-fc90-4370-8554-9a28d028ea17",
+            "item2": "47170d61-fc90-4370-8554-9a28d028ea17"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": null,
+                    "value": "pressed",
+                    "values": {
+                        "led": "1",
+                        "ledMode": "tickling"
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": null,
+                    "value": "released",
+                    "values": {
+                        "led": "0",
+                        "ledMode": ""
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 1,
+                "p1_edge": 4,
+                "p1_shift": 21,
+                "p2_edge": 4,
+                "p2_shift": 62,
+                "vertexes": [
+                    {
+                        "x": 921.5726333622242,
+                        "y": 448.206570622227
+                    }
+                ]
+            },
+            "item1": "d205426b-54b2-4024-bef5-24cb2b685d64",
+            "item2": "d205426b-54b2-4024-bef5-24cb2b685d64"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                        "dpbp.index": "1",
+                        "ep.index": "1"
+                    },
+                    "extra": null,
+                    "value": "0",
+                    "values": {
+                        "index": "0"
+                    }
+                },
+                {
+                    "execValues": {
+                        "ep.index": "1"
+                    },
+                    "extra": null,
+                    "value": "1",
+                    "values": {
+                        "index": "1"
+                    }
+                },
+                {
+                    "execValues": {
+                        "ep.index": "1"
+                    },
+                    "extra": null,
+                    "value": "2",
+                    "values": {
+                        "index": "2"
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 1,
+                "p1_edge": 4,
+                "p1_shift": 0,
+                "p2_edge": 4,
+                "p2_shift": 43,
+                "vertexes": [
+                    {
+                        "x": 1247.5069050862355,
+                        "y": 521.1487120218767
+                    }
+                ]
+            },
+            "item1": "d2cbc36c-3c3b-4f16-81cc-b8ee920f9854",
+            "item2": "d2cbc36c-3c3b-4f16-81cc-b8ee920f9854"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                        "ep.index": "1"
+                    },
+                    "extra": null,
+                    "value": "0",
+                    "values": {
+                        "index": "0"
+                    }
+                },
+                {
+                    "execValues": {
+                        "index": "1"
+                    },
+                    "extra": null,
+                    "value": "1",
+                    "values": {
+                        "index": "1"
+                    }
+                },
+                {
+                    "execValues": {
+                        "index": "2"
+                    },
+                    "extra": null,
+                    "value": "2",
+                    "values": {
+                        "index": "2"
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 1,
+                "p1_edge": 4,
+                "p1_shift": 2,
+                "p2_edge": 4,
+                "p2_shift": 39,
+                "vertexes": [
+                    {
+                        "x": 1227.9616363650316,
+                        "y": 661.2700554539255
+                    }
+                ]
+            },
+            "item1": "73033ba6-2891-4848-ae4c-581a812b24cb",
+            "item2": "73033ba6-2891-4848-ae4c-581a812b24cb"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                        "dpbp.index": "0",
+                        "ep.index": "1"
+                    },
+                    "extra": null,
+                    "value": "0",
+                    "values": {
+                        "index": "0"
+                    }
+                },
+                {
+                    "execValues": {
+                        "dpbp.index": "0",
+                        "ep.index": "1"
+                    },
+                    "extra": null,
+                    "value": "1",
+                    "values": {
+                        "index": "1"
+                    }
+                },
+                {
+                    "execValues": {
+                        "dpbp.index": "0",
+                        "ep.index": "1"
+                    },
+                    "extra": null,
+                    "value": "2",
+                    "values": {
+                        "index": "2"
+                    }
+                },
+                {
+                    "execValues": {
+                        "dpbp.index": "0",
+                        "ep.index": "1"
+                    },
+                    "extra": null,
+                    "value": "3",
+                    "values": {
+                        "index": "3"
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 1,
+                "p1_edge": 1,
+                "p1_shift": 62.12460179441268,
+                "p2_edge": 4,
+                "p2_shift": 48,
+                "vertexes": [
+                    {
+                        "x": 1211.155415607163,
+                        "y": 791.590411788368
+                    }
+                ]
+            },
+            "item1": "554132c4-be34-432e-a323-4aafdd732571",
+            "item2": "554132c4-be34-432e-a323-4aafdd732571"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                        "ep.index": "1"
+                    },
+                    "extra": null,
+                    "value": "0",
+                    "values": {
+                        "index": "0"
+                    }
+                },
+                {
+                    "execValues": {
+                        "ep.index": "1"
+                    },
+                    "extra": null,
+                    "value": "1",
+                    "values": {
+                        "index": "1"
+                    }
+                },
+                {
+                    "execValues": {
+                        "ep.index": "1"
+                    },
+                    "extra": null,
+                    "value": "2",
+                    "values": {
+                        "index": "2"
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 1,
+                "p1_edge": 4,
+                "p1_shift": 37.456563153020056,
+                "p2_edge": 4,
+                "p2_shift": 79.9565625197207,
+                "vertexes": [
+                    {
+                        "x": 1212.822629022261,
+                        "y": 968.2065628736233
+                    }
+                ]
+            },
+            "item1": "49a08419-8962-4794-8f34-c043e398f200",
+            "item2": "49a08419-8962-4794-8f34-c043e398f200"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": null,
+                    "value": "pressed",
+                    "values": {
+                        "index": "-1"
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 1,
+                "p1_edge": 2,
+                "p1_shift": 13,
+                "p2_edge": 4,
+                "p2_shift": 69,
+                "vertexes": [
+                ]
+            },
+            "item1": "2d5722e3-6a59-46c8-9b9f-fc291fe06134",
+            "item2": "d2cbc36c-3c3b-4f16-81cc-b8ee920f9854"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": null,
+                    "value": "pressed",
+                    "values": {
+                        "index": "-1"
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 2,
+                "p1_edge": 2,
+                "p1_shift": 35,
+                "p2_edge": 4,
+                "p2_shift": 64,
+                "vertexes": [
+                ]
+            },
+            "item1": "2d5722e3-6a59-46c8-9b9f-fc291fe06134",
+            "item2": "73033ba6-2891-4848-ae4c-581a812b24cb"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": null,
+                    "value": "pressed",
+                    "values": {
+                        "index": "-1"
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 2,
+                "p1_edge": 2,
+                "p1_shift": 58,
+                "p2_edge": 4,
+                "p2_shift": 87,
+                "vertexes": [
+                ]
+            },
+            "item1": "2d5722e3-6a59-46c8-9b9f-fc291fe06134",
+            "item2": "554132c4-be34-432e-a323-4aafdd732571"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": null,
+                    "value": "pressed",
+                    "values": {
+                        "led": "0"
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 1,
+                "p1_edge": 4,
+                "p1_shift": 17.52005424320612,
+                "p2_edge": 4,
+                "p2_shift": 70,
+                "vertexes": [
+                    {
+                        "x": 1830.461627387082,
+                        "y": 770.0200538334242
+                    }
+                ]
+            },
+            "item1": "2d5722e3-6a59-46c8-9b9f-fc291fe06134",
+            "item2": "2d5722e3-6a59-46c8-9b9f-fc291fe06134"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": null,
+                    "value": "pressed",
+                    "values": {
+                        "index": "-1"
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 2,
+                "p1_edge": 2,
+                "p1_shift": 79,
+                "p2_edge": 4,
+                "p2_shift": 13.706563506922635,
+                "vertexes": [
+                ]
+            },
+            "item1": "2d5722e3-6a59-46c8-9b9f-fc291fe06134",
+            "item2": "49a08419-8962-4794-8f34-c043e398f200"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": null,
+                    "value": "pressed",
+                    "values": {
+                        "index": "-1"
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 1,
+                "p1_edge": 8,
+                "p1_shift": 28.36201238092781,
+                "p2_edge": 8,
+                "p2_shift": 43,
+                "vertexes": [
+                    {
+                        "x": 1627.6120134053822,
+                        "y": 1035.2351797337058
+                    },
+                    {
+                        "x": 1296.3620183413918,
+                        "y": 1032.7351797709587
+                    },
+                    {
+                        "x": 854.899965898693,
+                        "y": 1033.038085802822
+                    }
+                ]
+            },
+            "item1": "2d5722e3-6a59-46c8-9b9f-fc291fe06134",
+            "item2": "47170d61-fc90-4370-8554-9a28d028ea17"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": null,
+                    "value": "pressed",
+                    "values": {
+                        "": ""
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 2,
+                "p1_edge": 4,
+                "p1_shift": 35.74611297628098,
+                "p2_edge": 4,
+                "p2_shift": 44.662245293524165,
+                "vertexes": [
+                    {
+                        "x": 1779.6940347597892,
+                        "y": 1276.0623741736654
+                    }
+                ]
+            },
+            "item1": "0ad489c6-ebee-4b3e-9cf7-f291de64cb03",
+            "item2": "bb3f09b2-ec35-4914-91f8-4ebcf5f2e2f8"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": "any,same",
+                    "value": null,
+                    "values": {
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 2,
+                "p1_edge": 4,
+                "p1_shift": 11.665894587859839,
+                "p2_edge": 4,
+                "p2_shift": 60.04447400504159,
+                "vertexes": [
+                    {
+                        "x": 2128.280627008071,
+                        "y": 2531.7770008478014
+                    }
+                ]
+            },
+            "item1": "e39a6e75-6bb4-4205-85b3-b4e2bdf651c9",
+            "item2": "e39a6e75-6bb4-4205-85b3-b4e2bdf651c9"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": "any,same",
+                    "value": null,
+                    "values": {
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 2,
+                "p1_edge": 4,
+                "p1_shift": 0,
+                "p2_edge": 4,
+                "p2_shift": 86.7464770116826,
+                "vertexes": [
+                    {
+                        "x": 1680.7806336763406,
+                        "y": 2468.0270017977505
+                    }
+                ]
+            },
+            "item1": "b73dec21-390a-4e4c-8ee5-0e93a4e712af",
+            "item2": "b73dec21-390a-4e4c-8ee5-0e93a4e712af"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": "a",
+                    "value": "pressed",
+                    "values": {
+                        "cursorAngle": "decrement"
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 2,
+                "p1_edge": 4,
+                "p1_shift": 29.360094005463907,
+                "p2_edge": 2,
+                "p2_shift": 68.61009465738971,
+                "vertexes": [
+                ]
+            },
+            "item1": "90d46653-88db-489a-8573-0121e7d1ec52",
+            "item2": "8f4f1017-f07f-48eb-9538-60dce7a499dd"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": null,
+                    "value": "pressed",
+                    "values": {
+                        "cursorAngle": "increment"
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 2,
+                "p1_edge": 4,
+                "p1_shift": 86.65557449079188,
+                "p2_edge": 2,
+                "p2_shift": 33.691493068762156,
+                "vertexes": [
+                ]
+            },
+            "item1": "9afce473-860d-420f-b8a8-7c7df47302c6",
+            "item2": "8f4f1017-f07f-48eb-9538-60dce7a499dd"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": "any,same",
+                    "value": "a",
+                    "values": {
+                        "brightness": "same"
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 2,
+                "p1_edge": 8,
+                "p1_shift": 51.99634549005896,
+                "p2_edge": 1,
+                "p2_shift": 65.43067134275043,
+                "vertexes": [
+                ]
+            },
+            "item1": "0e42d499-431a-42ee-9e25-b1fb24d1a01a",
+            "item2": "8f4f1017-f07f-48eb-9538-60dce7a499dd"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": "any,same",
+                    "value": null,
+                    "values": {
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 2,
+                "p1_edge": 4,
+                "p1_shift": 26.286183610614216,
+                "p2_edge": 4,
+                "p2_shift": 80.0361828096768,
+                "vertexes": [
+                    {
+                        "x": 1287.6207732018713,
+                        "y": 1940.6173416880167
+                    }
+                ]
+            },
+            "item1": "0e42d499-431a-42ee-9e25-b1fb24d1a01a",
+            "item2": "0e42d499-431a-42ee-9e25-b1fb24d1a01a"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": "any,same",
+                    "value": null,
+                    "values": {
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 2,
+                "p1_edge": 4,
+                "p1_shift": 0,
+                "p2_edge": 4,
+                "p2_shift": 78.03396999162624,
+                "vertexes": [
+                    {
+                        "x": 1149.2182273242972,
+                        "y": 1918.848175976757
+                    }
+                ]
+            },
+            "item1": "45e4ed86-f8b3-4c17-bf7e-06ee06396c2b",
+            "item2": "45e4ed86-f8b3-4c17-bf7e-06ee06396c2b"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": "any,same",
+                    "value": null,
+                    "values": {
+                        "amplifier": "same"
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": null,
+                    "value": null,
+                    "values": {
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": null,
+                    "value": null,
+                    "values": {
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": null,
+                    "value": null,
+                    "values": {
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 2,
+                "p1_edge": 8,
+                "p1_shift": 45.87317993951683,
+                "p2_edge": 1,
+                "p2_shift": 22.93067197604978,
+                "vertexes": [
+                ]
+            },
+            "item1": "45e4ed86-f8b3-4c17-bf7e-06ee06396c2b",
+            "item2": "8f4f1017-f07f-48eb-9538-60dce7a499dd"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": "any,same",
+                    "value": null,
+                    "values": {
+                        "cursorBrightness": "same"
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 2,
+                "p1_edge": 8,
+                "p1_shift": 43.648245788671375,
+                "p2_edge": 4,
+                "p2_shift": 43.168574226370765,
+                "vertexes": [
+                ]
+            },
+            "item1": "056d6345-f0aa-4612-aef1-670aa570351c",
+            "item2": "8f4f1017-f07f-48eb-9538-60dce7a499dd"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": "any,same",
+                    "value": null,
+                    "values": {
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 2,
+                "p1_edge": 4,
+                "p1_shift": 19.126985835845062,
+                "p2_edge": 4,
+                "p2_shift": 72.7321240543688,
+                "vertexes": [
+                    {
+                        "x": 1441.405733855197,
+                        "y": 1934.4731763260029
+                    }
+                ]
+            },
+            "item1": "056d6345-f0aa-4612-aef1-670aa570351c",
+            "item2": "056d6345-f0aa-4612-aef1-670aa570351c"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": "any,same",
+                    "value": null,
+                    "values": {
+                        "amplifier": "same"
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 2,
+                "p1_edge": 8,
+                "p1_shift": 41.64816064168372,
+                "p2_edge": 2,
+                "p2_shift": 19.16944095240251,
+                "vertexes": [
+                ]
+            },
+            "item1": "05fbdcd0-47bb-478d-958c-92e284383dca",
+            "item2": "8e414806-3967-4371-bd66-534d6cffaefb"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": "any,same",
+                    "value": null,
+                    "values": {
+                        "brightness": "same"
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 2,
+                "p1_edge": 8,
+                "p1_shift": 61.42756251355377,
+                "p2_edge": 1,
+                "p2_shift": 13.484227903426245,
+                "vertexes": [
+                ]
+            },
+            "item1": "4f8d77b7-9a28-4f60-b6e6-98b62f9b9b4a",
+            "item2": "8e414806-3967-4371-bd66-534d6cffaefb"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": "any,same",
+                    "value": null,
+                    "values": {
+                        "cursorBrightness": "same"
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 2,
+                "p1_edge": 8,
+                "p1_shift": 40.89273406725397,
+                "p2_edge": 1,
+                "p2_shift": 60.98422719562109,
+                "vertexes": [
+                ]
+            },
+            "item1": "5328fb79-b62c-4d7a-a081-9ebfa8357e8c",
+            "item2": "8e414806-3967-4371-bd66-534d6cffaefb"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": "any,same",
+                    "value": null,
+                    "values": {
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 2,
+                "p1_edge": 4,
+                "p1_shift": 10.358916888267004,
+                "p2_edge": 4,
+                "p2_shift": 64.10891608732959,
+                "vertexes": [
+                    {
+                        "x": 1962.1641057407244,
+                        "y": 1926.189851668628
+                    }
+                ]
+            },
+            "item1": "5328fb79-b62c-4d7a-a081-9ebfa8357e8c",
+            "item2": "5328fb79-b62c-4d7a-a081-9ebfa8357e8c"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": "any,same",
+                    "value": null,
+                    "values": {
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 2,
+                "p1_edge": 4,
+                "p1_shift": 28.828711378166645,
+                "p2_edge": 4,
+                "p2_shift": 82.57871057722923,
+                "vertexes": [
+                    {
+                        "x": 1808.1319920997023,
+                        "y": 1949.6757216799895
+                    }
+                ]
+            },
+            "item1": "4f8d77b7-9a28-4f60-b6e6-98b62f9b9b4a",
+            "item2": "4f8d77b7-9a28-4f60-b6e6-98b62f9b9b4a"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": "any,same",
+                    "value": null,
+                    "values": {
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 2,
+                "p1_edge": 4,
+                "p1_shift": 13.816602173218598,
+                "p2_edge": 4,
+                "p2_shift": 78.81660120464312,
+                "vertexes": [
+                    {
+                        "x": 1658.1319943348765,
+                        "y": 1927.1757220152656
+                    }
+                ]
+            },
+            "item1": "05fbdcd0-47bb-478d-958c-92e284383dca",
+            "item2": "05fbdcd0-47bb-478d-958c-92e284383dca"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                        "ep.index": "1"
+                    },
+                    "extra": null,
+                    "value": "0",
+                    "values": {
+                        "index": "0"
+                    }
+                },
+                {
+                    "execValues": {
+                        "ep.index": "1"
+                    },
+                    "extra": null,
+                    "value": "1",
+                    "values": {
+                        "index": "1"
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 2,
+                "p1_edge": 4,
+                "p1_shift": 13,
+                "p2_edge": 4,
+                "p2_shift": 75.71166313994615,
+                "vertexes": [
+                    {
+                        "x": 781.3620260154898,
+                        "y": 835.235182713938
+                    }
+                ]
+            },
+            "item1": "52a4dd61-d7c3-4234-b045-7a8370a2e669",
+            "item2": "52a4dd61-d7c3-4234-b045-7a8370a2e669"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": null,
+                    "value": "pressed",
+                    "values": {
+                        "index": "-1"
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 2,
+                "p1_edge": 8,
+                "p1_shift": 63.273127626282985,
+                "p2_edge": 8,
+                "p2_shift": 48.856202306505566,
+                "vertexes": [
+                    {
+                        "x": 1651.3620130514798,
+                        "y": 1090.235178914142
+                    },
+                    {
+                        "x": 697.6120272634621,
+                        "y": 1091.4851788955154
+                    }
+                ]
+            },
+            "item1": "2d5722e3-6a59-46c8-9b9f-fc291fe06134",
+            "item2": "52a4dd61-d7c3-4234-b045-7a8370a2e669"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": null,
+                    "value": "0",
+                    "values": {
+                        "index": "-1"
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 2,
+                "p1_edge": 2,
+                "p1_shift": 24.119312850843244,
+                "p2_edge": 1,
+                "p2_shift": 47,
+                "vertexes": [
+                ]
+            },
+            "item1": "47170d61-fc90-4370-8554-9a28d028ea17",
+            "item2": "52a4dd61-d7c3-4234-b045-7a8370a2e669"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": "any,same",
+                    "value": null,
+                    "values": {
+                        "peleng": "same"
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 2,
+                "p1_edge": 1,
+                "p1_shift": 44.12469552278867,
+                "p2_edge": 8,
+                "p2_shift": 22.80179243085081,
+                "vertexes": [
+                ]
+            },
+            "item1": "b03a58e5-8fe7-45e3-9012-fada57980fe5",
+            "item2": "8f4f1017-f07f-48eb-9538-60dce7a499dd"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": "any,same",
+                    "value": null,
+                    "values": {
+                        "distance": "same"
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 2,
+                "p1_edge": 1,
+                "p1_shift": 44.54924867231966,
+                "p2_edge": 8,
+                "p2_shift": 81.55179155540759,
+                "vertexes": [
+                ]
+            },
+            "item1": "f700c584-7194-4051-b83d-878847cd0e34",
+            "item2": "8f4f1017-f07f-48eb-9538-60dce7a499dd"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": "any,same",
+                    "value": null,
+                    "values": {
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 2,
+                "p1_edge": 4,
+                "p1_shift": 0,
+                "p2_edge": 4,
+                "p2_shift": 74.70800720590341,
+                "vertexes": [
+                    {
+                        "x": 1276.7393208035928,
+                        "y": 2675.0699979801475
+                    }
+                ]
+            },
+            "item1": "b03a58e5-8fe7-45e3-9012-fada57980fe5",
+            "item2": "b03a58e5-8fe7-45e3-9012-fada57980fe5"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": "any,same",
+                    "value": null,
+                    "values": {
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 2,
+                "p1_edge": 4,
+                "p1_shift": 13.81999859482039,
+                "p2_edge": 4,
+                "p2_shift": 78.81999762624491,
+                "vertexes": [
+                    {
+                        "x": 1408.0134420392894,
+                        "y": 2675.7017118379217
+                    }
+                ]
+            },
+            "item1": "f9d1e87f-4ef4-461a-abf1-77c9d94e7111",
+            "item2": "f9d1e87f-4ef4-461a-abf1-77c9d94e7111"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": "any,same",
+                    "value": null,
+                    "values": {
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 2,
+                "p1_edge": 4,
+                "p1_shift": 17.970054999446802,
+                "p2_edge": 4,
+                "p2_shift": 78.06999775663007,
+                "vertexes": [
+                    {
+                        "x": 1552.989316687147,
+                        "y": 2665.069998129159
+                    }
+                ]
+            },
+            "item1": "f700c584-7194-4051-b83d-878847cd0e34",
+            "item2": "f700c584-7194-4051-b83d-878847cd0e34"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": null,
+                    "value": "pressed",
+                    "values": {
+                        "led": "0"
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 2,
+                "p1_edge": 4,
+                "p1_shift": 0,
+                "p2_edge": 4,
+                "p2_shift": 80.01694311787014,
+                "vertexes": [
+                    {
+                        "x": 1795.3226203423346,
+                        "y": 493.20656995167474
+                    }
+                ]
+            },
+            "item1": "e03c13bc-e82a-4d0a-929a-f6a10214b952",
+            "item2": "e03c13bc-e82a-4d0a-929a-f6a10214b952"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": null,
+                    "value": "pressed",
+                    "values": {
+                        "index": "-1"
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 2,
+                "p1_edge": 2,
+                "p1_shift": 30.51528194159107,
+                "p2_edge": 4,
+                "p2_shift": 0,
+                "vertexes": [
+                ]
+            },
+            "item1": "e03c13bc-e82a-4d0a-929a-f6a10214b952",
+            "item2": "d2cbc36c-3c3b-4f16-81cc-b8ee920f9854"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": null,
+                    "value": "pressed",
+                    "values": {
+                        "index": "-1"
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 2,
+                "p1_edge": 2,
+                "p1_shift": 60.515281494556234,
+                "p2_edge": 1,
+                "p2_shift": 54.322629879077795,
+                "vertexes": [
+                ]
+            },
+            "item1": "e03c13bc-e82a-4d0a-929a-f6a10214b952",
+            "item2": "73033ba6-2891-4848-ae4c-581a812b24cb"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": null,
+                    "value": "pressed",
+                    "values": {
+                        "index": "-1"
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 2,
+                "p1_edge": 2,
+                "p1_shift": 85.5152811220272,
+                "p2_edge": 4,
+                "p2_shift": 0,
+                "vertexes": [
+                ]
+            },
+            "item1": "e03c13bc-e82a-4d0a-929a-f6a10214b952",
+            "item2": "554132c4-be34-432e-a323-4aafdd732571"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": null,
+                    "value": "pressed",
+                    "values": {
+                        "index": "-1"
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 2,
+                "p1_edge": 8,
+                "p1_shift": 20.517733693372065,
+                "p2_edge": 4,
+                "p2_shift": 0,
+                "vertexes": [
+                ]
+            },
+            "item1": "e03c13bc-e82a-4d0a-929a-f6a10214b952",
+            "item2": "49a08419-8962-4794-8f34-c043e398f200"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": null,
+                    "value": "pressed",
+                    "values": {
+                        "index": "-1"
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 2,
+                "p1_edge": 1,
+                "p1_shift": 55.28900631139004,
+                "p2_edge": 4,
+                "p2_shift": 0,
+                "vertexes": [
+                    {
+                        "x": 1727.822621348163,
+                        "y": 394.4565714231644
+                    },
+                    {
+                        "x": 964.0726327289249,
+                        "y": 400.70657133003215
+                    }
+                ]
+            },
+            "item1": "e03c13bc-e82a-4d0a-929a-f6a10214b952",
+            "item2": "47170d61-fc90-4370-8554-9a28d028ea17"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": null,
+                    "value": "pressed",
+                    "values": {
+                        "index": "-1"
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 2,
+                "p1_edge": 1,
+                "p1_shift": 85.2890058643552,
+                "p2_edge": 1,
+                "p2_shift": 29.822636919876345,
+                "vertexes": [
+                    {
+                        "x": 1756.5726209197546,
+                        "y": 335.7065722986076
+                    },
+                    {
+                        "x": 744.0726360071802,
+                        "y": 338.2065722613547
+                    }
+                ]
+            },
+            "item1": "e03c13bc-e82a-4d0a-929a-f6a10214b952",
+            "item2": "52a4dd61-d7c3-4234-b045-7a8370a2e669"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": "any,same",
+                    "value": null,
+                    "values": {
+                        "peleng": "same"
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 2,
+                "p1_edge": 4,
+                "p1_shift": 0,
+                "p2_edge": 2,
+                "p2_shift": 68.35889334442254,
+                "vertexes": [
+                ]
+            },
+            "item1": "b73dec21-390a-4e4c-8ee5-0e93a4e712af",
+            "item2": "8e414806-3967-4371-bd66-534d6cffaefb"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": "any,same",
+                    "value": null,
+                    "values": {
+                        "vyr": "same"
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 2,
+                "p1_edge": 1,
+                "p1_shift": 33.71876457998769,
+                "p2_edge": 8,
+                "p2_shift": 47.239114832299265,
+                "vertexes": [
+                ]
+            },
+            "item1": "07998fc4-a77c-42c9-830f-a6152680b59d",
+            "item2": "8e414806-3967-4371-bd66-534d6cffaefb"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": "any,same",
+                    "value": null,
+                    "values": {
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 2,
+                "p1_edge": 4,
+                "p1_shift": 0,
+                "p2_edge": 4,
+                "p2_shift": 92.42481234504703,
+                "vertexes": [
+                    {
+                        "x": 1878.2806307333612,
+                        "y": 2543.0270006801634
+                    }
+                ]
+            },
+            "item1": "07998fc4-a77c-42c9-830f-a6152680b59d",
+            "item2": "07998fc4-a77c-42c9-830f-a6152680b59d"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": "any,same",
+                    "value": null,
+                    "values": {
+                        "distance": "same"
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 2,
+                "p1_edge": 1,
+                "p1_shift": 56.49770108620373,
+                "p2_edge": 4,
+                "p2_shift": 65.4194402632238,
+                "vertexes": [
+                ]
+            },
+            "item1": "e39a6e75-6bb4-4205-85b3-b4e2bdf651c9",
+            "item2": "8e414806-3967-4371-bd66-534d6cffaefb"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": "a",
+                    "value": "pressed",
+                    "values": {
+                        "cursorAngle": "increment"
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 2,
+                "p1_edge": 2,
+                "p1_shift": 57.41931384850386,
+                "p2_edge": 4,
+                "p2_shift": 16.631710206989737,
+                "vertexes": [
+                ]
+            },
+            "item1": "c4ed0505-f462-46bc-8010-d26cf595a7fe",
+            "item2": "8e414806-3967-4371-bd66-534d6cffaefb"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": null,
+                    "value": "pressed",
+                    "values": {
+                        "cursorAngle": "decrement"
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 2,
+                "p1_edge": 2,
+                "p1_shift": 28.85277157550854,
+                "p2_edge": 4,
+                "p2_shift": 37.91944067300574,
+                "vertexes": [
+                ]
+            },
+            "item1": "fa3b0e89-6eb5-47da-8872-2e9447bbdd26",
+            "item2": "8e414806-3967-4371-bd66-534d6cffaefb"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                        "ep.index": "1"
+                    },
+                    "extra": "any,same",
+                    "value": "a",
+                    "values": {
+                        "scale": "same"
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 2,
+                "p1_edge": 4,
+                "p1_shift": 0,
+                "p2_edge": 2,
+                "p2_shift": 100,
+                "vertexes": [
+                ]
+            },
+            "item1": "b415d93b-e88d-4684-be45-bde6e0017ca7",
+            "item2": "8f4f1017-f07f-48eb-9538-60dce7a499dd"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                        "ep.index": "0"
+                    },
+                    "extra": null,
+                    "value": "pressed",
+                    "values": {
+                        "led": "1"
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 2,
+                "p1_edge": 4,
+                "p1_shift": 21.708830372441525,
+                "p2_edge": 4,
+                "p2_shift": 77.958831629727,
+                "vertexes": [
+                    {
+                        "x": 618.6340470306734,
+                        "y": 729.7088309312351
+                    }
+                ]
+            },
+            "item1": "904bcdf0-10b8-4015-a4c7-38a16164cdd1",
+            "item2": "904bcdf0-10b8-4015-a4c7-38a16164cdd1"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": "any,same",
+                    "value": "a",
+                    "values": {
+                        "soundSpeed": "same"
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 2,
+                "p1_edge": 4,
+                "p1_shift": 100,
+                "p2_edge": 2,
+                "p2_shift": 5.7262530069610875,
+                "vertexes": [
+                ]
+            },
+            "item1": "bd5f3042-cc56-455b-a719-e43581039cad",
+            "item2": "8f4f1017-f07f-48eb-9538-60dce7a499dd"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": "any,same",
+                    "value": "a",
+                    "values": {
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 2,
+                "p1_edge": 4,
+                "p1_shift": 3.8131275205012116,
+                "p2_edge": 4,
+                "p2_shift": 75.0631264587937,
+                "vertexes": [
+                    {
+                        "x": 927.5973563254273,
+                        "y": 2051.9414977440015
+                    }
+                ]
+            },
+            "item1": "bd5f3042-cc56-455b-a719-e43581039cad",
+            "item2": "bd5f3042-cc56-455b-a719-e43581039cad"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                        "ep.index": "0"
+                    },
+                    "extra": "any,same",
+                    "value": "",
+                    "values": {
+                        "asc": "same"
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 2,
+                "p1_edge": 8,
+                "p1_shift": 34.611793240729185,
+                "p2_edge": 1,
+                "p2_shift": 55.3408292009301,
+                "vertexes": [
+                ]
+            },
+            "item1": "904bcdf0-10b8-4015-a4c7-38a16164cdd1",
+            "item2": "75be1eca-4e5a-4233-a301-39dd462c7175"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                        "ep.index": "1"
+                    },
+                    "extra": null,
+                    "value": "0",
+                    "values": {
+                        "index": "0"
+                    }
+                },
+                {
+                    "execValues": {
+                        "ep.index": "1"
+                    },
+                    "extra": null,
+                    "value": "1",
+                    "values": {
+                        "index": "1"
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 2,
+                "p1_edge": 4,
+                "p1_shift": 20.385416516890928,
+                "p2_edge": 4,
+                "p2_shift": 76.63541567870061,
+                "vertexes": [
+                    {
+                        "x": 570.4968176708101,
+                        "y": 1166.9599549925333
+                    }
+                ]
+            },
+            "item1": "316a0088-22b1-4d68-971f-c40bfa752927",
+            "item2": "316a0088-22b1-4d68-971f-c40bfa752927"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": null,
+                    "value": "0",
+                    "values": {
+                        "index": "-1"
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": null,
+                    "value": "",
+                    "values": {
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 2,
+                "p1_edge": 4,
+                "p1_shift": 51.69645627295131,
+                "p2_edge": 2,
+                "p2_shift": 44.13541616298835,
+                "vertexes": [
+                ]
+            },
+            "item1": "e5685032-1dc0-4506-8fc1-2b26f76a8750",
+            "item2": "316a0088-22b1-4d68-971f-c40bfa752927"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": "any,same",
+                    "value": "a",
+                    "values": {
+                        "value": "same"
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 2,
+                "p1_edge": 2,
+                "p1_shift": 37.429779135737135,
+                "p2_edge": 4,
+                "p2_shift": 28.008331388110946,
+                "vertexes": [
+                ]
+            },
+            "item1": "bd5f3042-cc56-455b-a719-e43581039cad",
+            "item2": "0e12e512-0107-4f31-8c8b-4d3f51eceaee"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                        "ep.index": "1"
+                    },
+                    "extra": null,
+                    "value": "0",
+                    "values": {
+                        "epMode": "0"
+                    }
+                },
+                {
+                    "execValues": {
+                        "ep.index": "1"
+                    },
+                    "extra": null,
+                    "value": "1",
+                    "values": {
+                        "epMode": "1"
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 2,
+                "p1_edge": 2,
+                "p1_shift": 66.37496998347387,
+                "p2_edge": 4,
+                "p2_shift": 37.38179516223374,
+                "vertexes": [
+                ]
+            },
+            "item1": "52a4dd61-d7c3-4234-b045-7a8370a2e669",
+            "item2": "75be1eca-4e5a-4233-a301-39dd462c7175"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                        "ep.index": "1"
+                    },
+                    "extra": null,
+                    "value": "0",
+                    "values": {
+                        "epMode": "2"
+                    }
+                },
+                {
+                    "execValues": {
+                        "ep.index": "1"
+                    },
+                    "extra": null,
+                    "value": "1",
+                    "values": {
+                        "epMode": "3"
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 2,
+                "p1_edge": 1,
+                "p1_shift": 52.849903557726066,
+                "p2_edge": 8,
+                "p2_shift": 56.560447530279134,
+                "vertexes": [
+                ]
+            },
+            "item1": "316a0088-22b1-4d68-971f-c40bfa752927",
+            "item2": "75be1eca-4e5a-4233-a301-39dd462c7175"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": null,
+                    "value": "0",
+                    "values": {
+                        "epMode": "4"
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 2,
+                "p1_edge": 1,
+                "p1_shift": 74.33526509506191,
+                "p2_edge": 8,
+                "p2_shift": 22.968021736038054,
+                "vertexes": [
+                ]
+            },
+            "item1": "e5685032-1dc0-4506-8fc1-2b26f76a8750",
+            "item2": "75be1eca-4e5a-4233-a301-39dd462c7175"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": null,
+                    "value": "0",
+                    "values": {
+                        "index": "-1"
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": null,
+                    "value": "1",
+                    "values": {
+                        "index": "-1"
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 2,
+                "p1_edge": 4,
+                "p1_shift": 0,
+                "p2_edge": 8,
+                "p2_shift": 23.390675956149607,
+                "vertexes": [
+                ]
+            },
+            "item1": "316a0088-22b1-4d68-971f-c40bfa752927",
+            "item2": "52a4dd61-d7c3-4234-b045-7a8370a2e669"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": null,
+                    "value": "0",
+                    "values": {
+                        "index": "-1"
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": null,
+                    "value": "1",
+                    "values": {
+                        "index": "-1"
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 2,
+                "p1_edge": 8,
+                "p1_shift": 0,
+                "p2_edge": 1,
+                "p2_shift": 76.64067824720314,
+                "vertexes": [
+                ]
+            },
+            "item1": "52a4dd61-d7c3-4234-b045-7a8370a2e669",
+            "item2": "316a0088-22b1-4d68-971f-c40bfa752927"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": null,
+                    "value": "pressed",
+                    "values": {
+                        "index": "-1"
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 2,
+                "p1_edge": 1,
+                "p1_shift": 65.52141062138276,
+                "p2_edge": 8,
+                "p2_shift": 35.39067886187604,
+                "vertexes": [
+                ]
+            },
+            "item1": "5c2744dc-de8a-4450-b0ae-7523b5cbc24a",
+            "item2": "316a0088-22b1-4d68-971f-c40bfa752927"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": null,
+                    "value": "pressed",
+                    "values": {
+                        "led": "0"
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 2,
+                "p1_edge": 1,
+                "p1_shift": 51.19683584277641,
+                "p2_edge": 8,
+                "p2_shift": 77.89067822857669,
+                "vertexes": [
+                ]
+            },
+            "item1": "1b660256-2baa-4226-a476-1c87017db7b5",
+            "item2": "316a0088-22b1-4d68-971f-c40bfa752927"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": null,
+                    "value": "1",
+                    "values": {
+                        "led": "0"
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 2,
+                "p1_edge": 2,
+                "p1_shift": 4.119313148866468,
+                "p2_edge": 4,
+                "p2_shift": 3.369313502769046,
+                "vertexes": [
+                ]
+            },
+            "item1": "47170d61-fc90-4370-8554-9a28d028ea17",
+            "item2": "904bcdf0-10b8-4015-a4c7-38a16164cdd1"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": null,
+                    "value": "0",
+                    "values": {
+                        "index": "0",
+                        "ledMode": ""
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": null,
+                    "value": "1",
+                    "values": {
+                        "index": "1",
+                        "ledMode": ""
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 2,
+                "p1_edge": 4,
+                "p1_shift": 7.78919415622272,
+                "p2_edge": 4,
+                "p2_shift": 76.53919313176812,
+                "vertexes": [
+                    {
+                        "x": 251.03502609704174,
+                        "y": 667.7608640054366
+                    }
+                ]
+            },
+            "item1": "7a9022c8-6102-44f2-84e6-7da819049dd5",
+            "item2": "7a9022c8-6102-44f2-84e6-7da819049dd5"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": null,
+                    "value": "0",
+                    "values": {
+                        "ledMode": "0"
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": null,
+                    "value": "1",
+                    "values": {
+                        "ledMode": "1"
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 2,
+                "p1_edge": 8,
+                "p1_shift": 30.577064132815167,
+                "p2_edge": 1,
+                "p2_shift": 18.861249329727116,
+                "vertexes": [
+                ]
+            },
+            "item1": "7a9022c8-6102-44f2-84e6-7da819049dd5",
+            "item2": "75be1eca-4e5a-4233-a301-39dd462c7175"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": null,
+                    "value": "pressed",
+                    "values": {
+                        "led": "1",
+                        "ledMode": "blink"
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": null,
+                    "value": "released",
+                    "values": {
+                        "led": "0",
+                        "ledMode": ""
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 2,
+                "p1_edge": 4,
+                "p1_shift": 0,
+                "p2_edge": 4,
+                "p2_shift": 57.90557491920026,
+                "vertexes": [
+                    {
+                        "x": 1017.4850121515242,
+                        "y": 2270.9055752917293
+                    }
+                ]
+            },
+            "item1": "9afce473-860d-420f-b8a8-7c7df47302c6",
+            "item2": "9afce473-860d-420f-b8a8-7c7df47302c6"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": null,
+                    "value": "pressed",
+                    "values": {
+                        "led": "1",
+                        "ledMode": "blink"
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": null,
+                    "value": "released",
+                    "values": {
+                        "led": "0",
+                        "ledMode": ""
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 2,
+                "p1_edge": 4,
+                "p1_shift": 49.65557247913512,
+                "p2_edge": 4,
+                "p2_shift": 80.90557201347383,
+                "vertexes": [
+                    {
+                        "x": 1048.735011685863,
+                        "y": 2478.4055721997383
+                    }
+                ]
+            },
+            "item1": "90d46653-88db-489a-8573-0121e7d1ec52",
+            "item2": "90d46653-88db-489a-8573-0121e7d1ec52"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": null,
+                    "value": "pressed",
+                    "values": {
+                        "workMode": "1"
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": null,
+                    "value": "released",
+                    "values": {
+                        "workMode": "0"
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 2,
+                "p1_edge": 2,
+                "p1_shift": 57.685635422384166,
+                "p2_edge": 4,
+                "p2_shift": 10.435629778569478,
+                "vertexes": [
+                ]
+            },
+            "item1": "d205426b-54b2-4024-bef5-24cb2b685d64",
+            "item2": "75be1eca-4e5a-4233-a301-39dd462c7175"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                        "dpbp.index": "0",
+                        "ep.index": "1"
+                    },
+                    "extra": null,
+                    "value": "0",
+                    "values": {
+                        "scale": "0"
+                    }
+                },
+                {
+                    "execValues": {
+                        "dpbp.index": "0",
+                        "ep.index": "1"
+                    },
+                    "extra": null,
+                    "value": "1",
+                    "values": {
+                        "scale": "1"
+                    }
+                },
+                {
+                    "execValues": {
+                        "dpbp.index": "0",
+                        "ep.index": "1"
+                    },
+                    "extra": null,
+                    "value": "2",
+                    "values": {
+                        "scale": "2"
+                    }
+                },
+                {
+                    "execValues": {
+                        "dpbp.index": "0",
+                        "ep.index": "1"
+                    },
+                    "extra": null,
+                    "value": "3",
+                    "values": {
+                        "scale": "3"
+                    }
+                },
+                {
+                    "execValues": {
+                    },
+                    "extra": null,
+                    "value": null,
+                    "values": {
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 2,
+                "p1_edge": 2,
+                "p1_shift": 44.26201107179668,
+                "p2_edge": 4,
+                "p2_shift": 24.408236154795304,
+                "vertexes": [
+                ]
+            },
+            "item1": "6563f3eb-2a36-4221-82f4-94448dc01f17",
+            "item2": "bb2931d8-1a89-4d5c-8aea-3e3f42442f7b"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                        "ep.index": "1"
+                    },
+                    "extra": null,
+                    "value": "2",
+                    "values": {
+                        "index": "-1"
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 2,
+                "p1_edge": 8,
+                "p1_shift": 62.53133537503527,
+                "p2_edge": 1,
+                "p2_shift": 67.88466888838002,
+                "vertexes": [
+                ]
+            },
+            "item1": "435561c5-ae52-40df-b9f1-885c5e39d428",
+            "item2": "6563f3eb-2a36-4221-82f4-94448dc01f17"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                        "ep.index": "1"
+                    },
+                    "extra": null,
+                    "value": "2",
+                    "values": {
+                        "scale": "4"
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 2,
+                "p1_edge": 2,
+                "p1_shift": 76.20847610818635,
+                "p2_edge": 4,
+                "p2_shift": 0,
+                "vertexes": [
+                ]
+            },
+            "item1": "435561c5-ae52-40df-b9f1-885c5e39d428",
+            "item2": "bb2931d8-1a89-4d5c-8aea-3e3f42442f7b"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                        "dpbp.index": "0",
+                        "ep.index": "1"
+                    },
+                    "extra": null,
+                    "value": "0",
+                    "values": {
+                    }
+                },
+                {
+                    "execValues": {
+                        "dpbp.index": "0",
+                        "ep.index": "1"
+                    },
+                    "extra": null,
+                    "value": "1",
+                    "values": {
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 2,
+                "p1_edge": 1,
+                "p1_shift": 32.5289099850861,
+                "p2_edge": 8,
+                "p2_shift": 69.76473838441461,
+                "vertexes": [
+                ]
+            },
+            "item1": "dda1acb9-cadf-4bad-8e8a-6df0eda44ea2",
+            "item2": "bb2931d8-1a89-4d5c-8aea-3e3f42442f7b"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                        "dpbp.index": "0",
+                        "ep.index": "1"
+                    },
+                    "extra": null,
+                    "value": "0",
+                    "values": {
+                        "searchAngleMode": "0"
+                    }
+                },
+                {
+                    "execValues": {
+                        "dpbp.index": "1",
+                        "ep.index": "1"
+                    },
+                    "extra": null,
+                    "value": "1",
+                    "values": {
+                        "searchAngleMode": "1"
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 2,
+                "p1_edge": 4,
+                "p1_shift": 50.814139458338786,
+                "p2_edge": 2,
+                "p2_shift": 60.03179308878998,
+                "vertexes": [
+                ]
+            },
+            "item1": "dda1acb9-cadf-4bad-8e8a-6df0eda44ea2",
+            "item2": "1505a7a7-23ca-4ade-b791-f2579d2ee4aa"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                    },
+                    "extra": null,
+                    "value": "0",
+                    "values": {
+                        "index": "-1"
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 2,
+                "p1_edge": 1,
+                "p1_shift": 11.91353474686241,
+                "p2_edge": 8,
+                "p2_shift": 10.663534467465638,
+                "vertexes": [
+                ]
+            },
+            "item1": "e5685032-1dc0-4506-8fc1-2b26f76a8750",
+            "item2": "7a9022c8-6102-44f2-84e6-7da819049dd5"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                        "dpbp.index": "1",
+                        "ep.index": "1"
+                    },
+                    "extra": null,
+                    "value": "0",
+                    "values": {
+                        "scale": "0"
+                    }
+                },
+                {
+                    "execValues": {
+                        "dpbp.index": "0",
+                        "ep.index": "1"
+                    },
+                    "extra": null,
+                    "value": "1",
+                    "values": {
+                        "scale": "1"
+                    }
+                },
+                {
+                    "execValues": {
+                        "dpbp.index": "1",
+                        "ep.index": "1"
+                    },
+                    "extra": null,
+                    "value": "2",
+                    "values": {
+                        "scale": "2"
+                    }
+                },
+                {
+                    "execValues": {
+                        "dp.index": "0",
+                        "ep.index": "1"
+                    },
+                    "extra": null,
+                    "value": "3",
+                    "values": {
+                        "scale": "3"
+                    }
+                },
+                {
+                    "execValues": {
+                        "dpbp.index": "0",
+                        "ep.index": "1"
+                    },
+                    "extra": null,
+                    "value": "4",
+                    "values": {
+                        "scale": "4"
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 2,
+                "p1_edge": 4,
+                "p1_shift": 61.40141097603123,
+                "p2_edge": 2,
+                "p2_shift": 23.234885137758624,
+                "vertexes": [
+                ]
+            },
+            "item1": "6563f3eb-2a36-4221-82f4-94448dc01f17",
+            "item2": "1505a7a7-23ca-4ade-b791-f2579d2ee4aa"
+        },
+        {
+            "changes": [
+                {
+                    "execValues": {
+                        "ep.index": "1"
+                    },
+                    "extra": null,
+                    "value": "2",
+                    "values": {
+                        "index": "-1"
+                    }
+                }
+            ],
+            "data": {
+                "color": "black",
+                "lineWidth": 2,
+                "p1_edge": 8,
+                "p1_shift": 88.72333342250613,
+                "p2_edge": 1,
+                "p2_shift": 67.3198597532596,
+                "vertexes": [
+                ]
+            },
+            "item1": "435561c5-ae52-40df-b9f1-885c5e39d428",
+            "item2": "dda1acb9-cadf-4bad-8e8a-6df0eda44ea2"
+        }
+    ],
+    "mode": 1,
+    "screenHeight": 954,
+    "screenWidth": 1338
+}

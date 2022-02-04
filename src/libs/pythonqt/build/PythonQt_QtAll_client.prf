@@ -1,0 +1,16 @@
+# profile for non-mevis users to link to PythonQt_QtAll
+
+INCLUDEPATH += $$PWD/../extensions/PythonQt_QtAll
+
+# check if debug or release
+CONFIG(debug, debug|release) {
+  DEBUG_EXT = _d
+} else {
+  DEBUG_EXT =
+}
+
+message(adadadadadadad adadadadad $${OUT_PWD})
+
+win32-g++: LIBS += $$OUT_PWD/../src/libs/pythonqt/lib/PythonQt_QtAll-Qt5-Python$${PYTHON_VERSION}$${DEBUG_EXT}.dll
+win32-msvc*: LIBS += $$OUT_PWD/../src/libs/pythonqt/lib/PythonQt_QtAll-Qt5-Python$${PYTHON_VERSION}$${DEBUG_EXT}.lib
+unix: LIBS += -L$$OUT_PWD/../src/libs/pythonqt/lib -lPythonQt_QtAll-Qt5-Python$${PYTHON_VERSION}$${DEBUG_EXT}

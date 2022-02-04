@@ -1,0 +1,8 @@
+module SaveProvider
+SaveEditWindow 1.0 qml/SaveEditWindow.qml
+SaveMenuButton 1.0 qml/menuButton/SaveMenuButton.qml
+SaveMenuWindow 1.0 qml/menuWindow/SaveMenuWindow.qml
+MoveComboButton 1.0 qml/MoveComboButton.qml
+DragDelegate 1.0 qml/DragDelegate.qml
+AdditionalWindow 1.0  qml/menuWindow/AdditionalWindow.qml
+plugin SaveProvider

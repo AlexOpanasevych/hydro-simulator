@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>resources/qml/Tiles.qml</file>
+        <file>resources/qml/ClientsList.qml</file>
+        <file>resources/qml/ListDragItem.qml</file>
+        <file>resources/qml/PopupMessage.qml</file>
+        <file>resources/qml/ServerInterfaceSettingsButton.qml</file>
+        <file>src/subsystems/bronze/scripts/context.py</file>
+        <file>src/subsystems/bronze/scripts/logic.py</file>
+        <file>src/subsystems/bronze/scripts/logic.js</file>
+        <file>src/subsystems/bronze/scripts/context.js</file>
+    </qresource>
+</RCC>

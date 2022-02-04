@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QtHelpProject version="1.0">
+  <namespace>org.K.KBus</namespace>
+  <virtualFolder>KBus</virtualFolder>
+  <filterSection>
+    <filterAttribute>doxygen</filterAttribute>
+    <toc>
+      <section title="KBus 0.1" ref="index.html">
+        <section title="Initialization" ref="md__c_1__users_sit23__documents__application_projects_source__k_bus__r_e_a_d_m_e.html">
+          <section title="Add headers" ref="md__c_1__users_sit23__documents__application_projects_source__k_bus__r_e_a_d_m_e.html#autotoc_md1" />
+          <section title="Add declaration" ref="md__c_1__users_sit23__documents__application_projects_source__k_bus__r_e_a_d_m_e.html#autotoc_md2" />
+          <section title="Add initialization" ref="md__c_1__users_sit23__documents__application_projects_source__k_bus__r_e_a_d_m_e.html#autotoc_md3" />
+          <section title="Add to application destructor" ref="md__c_1__users_sit23__documents__application_projects_source__k_bus__r_e_a_d_m_e.html#autotoc_md4" />
+        </section>
+      
+
+    <section title="Internal mechanism" ref="md__c_1__users_sit23__documents__application_projects_source__k_bus__r_e_a_d_m_e.html#autotoc_md5">
+      <section title="Workers" ref="md__c_1__users_sit23__documents__application_projects_source__k_bus__r_e_a_d_m_e.html#autotoc_md6">
+        <section title="Worker receive" ref="md__c_1__users_sit23__documents__application_projects_source__k_bus__r_e_a_d_m_e.html#autotoc_md7" />
+        <section title="Workers send" ref="md__c_1__users_sit23__documents__application_projects_source__k_bus__r_e_a_d_m_e.html#autotoc_md8" />
+      </section>
+      <section title="User send" ref="md__c_1__users_sit23__documents__application_projects_source__k_bus__r_e_a_d_m_e.html#autotoc_md9" />
+    </section>
+
+  <section title="Hierarchy" ref="md__c_1__users_sit23__documents__application_projects_source__k_bus__r_e_a_d_m_e.html#autotoc_md10" />
+
+
+<section title="Classes" ref="annotated.html">
+  <section title="Class List" ref="annotated.html">
+    <section title="CircleBuf" ref="class_circle_buf.html">
+      <section title="CircleBuf" ref="class_circle_buf.html#ace2bf3e3ab1ed60a8610442418451004" />
+      <section title="bufIsEmpty" ref="class_circle_buf.html#ac00504401a0d11e383b815362568f19f" />
+      <section title="clear" ref="class_circle_buf.html#a7712ad9be3df95085859a2dbe1aef274" />
+      <section title="pop" ref="class_circle_buf.html#a6d23bf1b7d226f881e2eccd1c71bdb06" />
+      <section title="push" ref="class_circle_buf.html#a35b9df9f0b9af4cede3c8802529fbb9a" />
+      <section title="take" ref="class_circle_buf.html#a438c851bcd82cf66ab833a4ea0a502ce" />
+    </section>
+    <section title="Convert" ref="class_convert.html">
+      <section title="FB" ref="struct_convert_1_1_f_b.html" />
+      <section title="FL" ref="struct_convert_1_1_f_l.html" />
+    </section>
+    <section title="KBus" ref="class_k_bus.html">
+      <section title="ConnectionData" ref="struct_k_bus_1_1_connection_data.html">
+        <section title="data" ref="struct_k_bus_1_1_connection_data.html#a27fbc07e86fd7ac6c53631cbbb4ce7fd" />
+        <section title="name" ref="struct_k_bus_1_1_connection_data.html#a77173f5d7820d939806d5275ace56b22" />
+        <section title="type" ref="struct_k_bus_1_1_connection_data.html#aa2896b145b2658089c2da56c08df51d6" />
+      </section>
+      <section title="KBus" ref="class_k_bus.html#ac57d8363d3896def9068d15cbfc69429" />
+      <section title="~KBus" ref="class_k_bus.html#af58dabc3827ccb66dee8b796ff5122ed" />
+      <section title="addWorker" ref="class_k_bus.html#a43d5862bdfe91e43d0c9fd3b1bc77677" />
+      <section title="isConnected" ref="class_k_bus.html#aff03b32d17ed7bffcad6a4845bf5d5b3" />
+      <section title="isEmptyRX" ref="class_k_bus.html#a58e971d9bba8c5ac3be9fc278811face" />
+      <section title="isEmptyTX" ref="class_k_bus.html#a29bad77ddcbf1eab319210fd4b04aa7a" />
+      <section title="pop" ref="class_k_bus.html#aa874e9cd87c7bacd328541fee1a36e82" />
+      <section title="push" ref="class_k_bus.html#a305d33e934181fb9fc6210dbf41c9ffa" />
+      <section title="removeAllWorker" ref="class_k_bus.html#a2ba237658cf8deb948150e4081962f82" />
+      <section title="start" ref="class_k_bus.html#aa8824d7f01a4ba0ccbc7b0848928554f" />
+      <section title="startOverride" ref="class_k_bus.html#a868bea6a6c94c10803356d1861b137a4" />
+      <section title="m_workers" ref="class_k_bus.html#a5be335b1618b6b4a746836e0f107cacf" />
+    </section>
+    <section title="KBusFactory" ref="class_k_bus_factory.html">
+      <section title="create" ref="class_k_bus_factory.html#af90b63b68dc45947328c96653a3b9647" />
+      <section title="create" ref="class_k_bus_factory.html#ab9c0bb05396085091222106f8aaa7817" />
+      <section title="getBusCreateData" ref="class_k_bus_factory.html#a907120a3f195c2de93ac1546e16fb59b" />
+      <section title="getCreatorsNames" ref="class_k_bus_factory.html#a77bd3b5bb0cf787ea176302440afacd4" />
+      <section title="instalBusCreator" ref="class_k_bus_factory.html#acf3bcaa75b57bd22bb8d2fd814bc8d7c" />
+    </section>
+    <section title="KBusWorker" ref="class_k_bus_worker.html">
+      <section title="KBusWorker" ref="class_k_bus_worker.html#a76a522650b5157e7eb5e6c02f92c1655" />
+      <section title="~KBusWorker" ref="class_k_bus_worker.html#a6ea20808fb08f1dc21d89fd68d93e586" />
+      <section title="getPacketsForSend" ref="class_k_bus_worker.html#a826d84d89666a81422c603ba2550ee26" />
+      <section title="proceedPacket" ref="class_k_bus_worker.html#ab090fdd4a57724f2191141f3c24a7527" />
+      <section title="setID" ref="class_k_bus_worker.html#a5faf5b2b54a36acc4f1a030add0684d5" />
+      <section title="id" ref="class_k_bus_worker.html#a1493721902cc7647105bd3eb086407be" />
+    </section>
+    <section title="KCommunicator" ref="class_k_communicator.html">
+      <section title="KCommunicator" ref="class_k_communicator.html#a022d12628a7f87bbe6772645d9bba348" />
+      <section title="~KCommunicator" ref="class_k_communicator.html#a0aba89c44616d6e93bf7247f4153db73" />
+      <section title="proceedRawData" ref="class_k_communicator.html#a3d91ffc01a1e92b7aad18b776f6f2057" />
+      <section title="send" ref="class_k_communicator.html#a0d166e4f298e6015aa314d9861b3f3a6" />
+      <section title="setReceivePackCallback" ref="class_k_communicator.html#a5459fbac1b602f4f52faba238a13524a" />
+      <section title="setTransmitPackCallback" ref="class_k_communicator.html#a100e0577a52850119824619642b4bcb5" />
+      <section title="receiveCallback" ref="class_k_communicator.html#adb67e138e439adf8b40aed5b02fe84b5" />
+      <section title="transmitCallback" ref="class_k_communicator.html#af93a4eaca7557c817decd761e32f6566" />
+    </section>
+    <section title="KRawParser" ref="class_k_raw_parser.html">
+      <section title="Frame" ref="struct_k_raw_parser_1_1_frame.html">
+        <section title="data" ref="struct_k_raw_parser_1_1_frame.html#a98d0b8d6ff1f2a0b4e5243d9275524bb" />
+        <section title="size" ref="struct_k_raw_parser_1_1_frame.html#ac1595c21c1ca21646ad5cbf3cdd0cc5c" />
+      </section>
+      <section title="KRawParser" ref="class_k_raw_parser.html#a53ecc3f81bb3d200a91bfee3b26a1e83" />
+      <section title="getMaxFrameLength" ref="class_k_raw_parser.html#a2182b4debeb6ee223e12c2f1610df92e" />
+      <section title="proceedArray" ref="class_k_raw_parser.html#ae86fc2ec0401efb8ee11cbb2668d6e25" />
+      <section title="proceedArray" ref="class_k_raw_parser.html#ae13b9924066c583d5f0514a3c762eb3f" />
+      <section title="proceedByte" ref="class_k_raw_parser.html#a7c0edf02909fe6ed13ca923cb4542b11" />
+      <section title="proceedRawData" ref="class_k_raw_parser.html#a1e00ffe075a00c1a7f90b74d31604bd9" />
+      <section title="readUnshieldedFrame" ref="class_k_raw_parser.html#a50cedabed14f2696c8936580df149658" />
+      <section title="send" ref="class_k_raw_parser.html#a52becc8a9325b2e2693ecb36fcdf3787" />
+      <section title="shieldFrame" ref="class_k_raw_parser.html#a7420e58a9dade488f4c291dce22ecc8f" />
+    </section>
+    <section title="KSerialBusThreaded" ref="class_k_serial_bus_threaded.html">
+      <section title="KSerialBusThreaded" ref="class_k_serial_bus_threaded.html#a95b56c9e4dbcd4265038cd52a2c8c91b" />
+      <section title="~KSerialBusThreaded" ref="class_k_serial_bus_threaded.html#ab94f71a3c9a9fbeb539b003c47f62a46" />
+      <section title="isConnected" ref="class_k_serial_bus_threaded.html#aa4d0a1fda372c7c427be29f5d96bf49e" />
+      <section title="isEmptyRX" ref="class_k_serial_bus_threaded.html#ab6d5e9107218b763087ff6825be1d028" />
+      <section title="isEmptyTX" ref="class_k_serial_bus_threaded.html#a8e34cce5071b8e3addf459661557f56b" />
+      <section title="pop" ref="class_k_serial_bus_threaded.html#a85d12fc1fd55761dbb64f9dd176dd92b" />
+      <section title="push" ref="class_k_serial_bus_threaded.html#a5e094800631065eef422f9c37de4e045" />
+      <section title="setPort" ref="class_k_serial_bus_threaded.html#a99f591ccc6935dfea180fb8358f6fd93" />
+      <section title="startOverride" ref="class_k_serial_bus_threaded.html#a0886bce97f5a990782d0694caf3dbf67" />
+      <section title="stopThread" ref="class_k_serial_bus_threaded.html#ac60f37c2c0a68cc36fd2f612b7bf1226" />
+    </section>
+  </section>
+  <section title="Class Index" ref="classes.html" />
+  <section title="Class Hierarchy" ref="hierarchy.html">
+    <section title="CircleBuf&lt; T &gt;" ref="class_circle_buf.html" />
+    <section title="CircleBuf&lt; QByteArray &gt;" ref="class_circle_buf.html" />
+    <section title="KBus::ConnectionData" ref="struct_k_bus_1_1_connection_data.html" />
+    <section title="Convert" ref="class_convert.html" />
+    <section title="Convert::FB" ref="struct_convert_1_1_f_b.html" />
+    <section title="Convert::FL" ref="struct_convert_1_1_f_l.html" />
+    <section title="KRawParser::Frame" ref="struct_k_raw_parser_1_1_frame.html" />
+    <section title="KBusFactory" ref="class_k_bus_factory.html" />
+    <section title="KCommunicator" ref="class_k_communicator.html">
+      <section title="KRawParser" ref="class_k_raw_parser.html" />
+    </section>
+    <section title="QObject">
+      <section title="KBus" ref="class_k_bus.html">
+        <section title="KSerialBusThreaded" ref="class_k_serial_bus_threaded.html" />
+      </section>
+      <section title="KBusWorker" ref="class_k_bus_worker.html" />
+    </section>
+  </section>
+  <section title="Class Members" ref="functions.html">
+    <section title="All" ref="functions.html" />
+    <section title="Functions" ref="functions_func.html" />
+  </section>
+</section>
+
+<section title="Files" ref="files.html">
+  <section title="File List" ref="files.html">
+    <section title="base" ref="dir_e914ee4d4a44400f1fdb170cb4ead18a.html">
+      <section title="KBus.h" ref="_k_bus_8h_source.html" />
+      <section title="kbusworker.h" ref="kbusworker_8h_source.html" />
+      <section title="KCommunicator.h" ref="_k_communicator_8h_source.html" />
+    </section>
+    <section title="buses" ref="dir_997beb15eb1123ae59dfa5856db999bd.html">
+      <section title="kserialbusthreaded.h" ref="kserialbusthreaded_8h_source.html" />
+    </section>
+    <section title="coms" ref="dir_554b72d9d4578d9df8791a2e0537fee7.html">
+      <section title="KRawParser.h" ref="_k_raw_parser_8h_source.html" />
+    </section>
+    <section title="tools" ref="dir_4eeb864c4eec08c7d6b9d3b0352cfdde.html">
+      <section title="circlebuf.h" ref="circlebuf_8h_source.html" />
+      <section title="convert.h" ref="convert_8h_source.html" />
+    </section>
+    <section title="KBus_global.h" ref="_k_bus__global_8h_source.html" />
+    <section title="kbusfactory.h" ref="kbusfactory_8h_source.html" />
+  </section>
+</section>
+</section>
+	</toc>
+    <keywords>
+      <keyword name="Initialization" id="Initialization" ref="md__c_1__users_sit23__documents__application_projects_source__k_bus__r_e_a_d_m_e.html" />
+      <keyword name="CircleBuf" id="CircleBuf" ref="class_circle_buf.html" />
+      <keyword name="CircleBuf" id="CircleBuf::CircleBuf" ref="class_circle_buf.html#ace2bf3e3ab1ed60a8610442418451004" />
+      <keyword name="push" id="CircleBuf::push" ref="class_circle_buf.html#a35b9df9f0b9af4cede3c8802529fbb9a" />
+      <keyword name="pop" id="CircleBuf::pop" ref="class_circle_buf.html#a6d23bf1b7d226f881e2eccd1c71bdb06" />
+      <keyword name="take" id="CircleBuf::take" ref="class_circle_buf.html#a438c851bcd82cf66ab833a4ea0a502ce" />
+      <keyword name="bufIsEmpty" id="CircleBuf::bufIsEmpty" ref="class_circle_buf.html#ac00504401a0d11e383b815362568f19f" />
+      <keyword name="clear" id="CircleBuf::clear" ref="class_circle_buf.html#a7712ad9be3df95085859a2dbe1aef274" />
+      <keyword name="Convert" id="Convert" ref="class_convert.html" />
+      <keyword name="Convert::FB" id="Convert::FB" ref="struct_convert_1_1_f_b.html" />
+      <keyword name="readU8" id="Convert::FB::readU8" ref="struct_convert_1_1_f_b.html#a1fcd23dbced93a4def5dcbdc623fd9f2" />
+      <keyword name="writeU8" id="Convert::FB::writeU8" ref="struct_convert_1_1_f_b.html#aa20968f3fc3060c6e7ed19b758563a7a" />
+      <keyword name="readU16" id="Convert::FB::readU16" ref="struct_convert_1_1_f_b.html#a8174136be980d9c7d4775f8bf85bddcb" />
+      <keyword name="writeU16" id="Convert::FB::writeU16" ref="struct_convert_1_1_f_b.html#a684c2397abe64641058838961fc8c773" />
+      <keyword name="readU24" id="Convert::FB::readU24" ref="struct_convert_1_1_f_b.html#ab249d13fa9773297a39ba4f22755402b" />
+      <keyword name="writeU24" id="Convert::FB::writeU24" ref="struct_convert_1_1_f_b.html#ac1cbc4c443eeb9ec8a93e5189676ed62" />
+      <keyword name="readI24" id="Convert::FB::readI24" ref="struct_convert_1_1_f_b.html#ac7e0f92c6a5b2fffcd1fa9776f2f8a15" />
+      <keyword name="readI32" id="Convert::FB::readI32" ref="struct_convert_1_1_f_b.html#ab1b23824546d4423e476085f3429e6cc" />
+      <keyword name="writeI32" id="Convert::FB::writeI32" ref="struct_convert_1_1_f_b.html#a48e13d2541abe7c2c79d3537ee550759" />
+      <keyword name="readU32" id="Convert::FB::readU32" ref="struct_convert_1_1_f_b.html#abd4bc8e940e6f8e4047b05513eb2868d" />
+      <keyword name="Convert::FL" id="Convert::FL" ref="struct_convert_1_1_f_l.html" />
+      <keyword name="readU8" id="Convert::FL::readU8" ref="struct_convert_1_1_f_l.html#ab08a78268b3f84fc948906f717e30c3c" />
+      <keyword name="writeU8" id="Convert::FL::writeU8" ref="struct_convert_1_1_f_l.html#ad481ef869b42e027c75ebc4e99d796d1" />
+      <keyword name="readU16" id="Convert::FL::readU16" ref="struct_convert_1_1_f_l.html#a8357375f750a288f1f4ec1a0f059d3e3" />
+      <keyword name="writeU16" id="Convert::FL::writeU16" ref="struct_convert_1_1_f_l.html#a58d865f09c09337e39209e00d089a39f" />
+      <keyword name="readU24" id="Convert::FL::readU24" ref="struct_convert_1_1_f_l.html#a369f2934a64356257700574d876d6da7" />
+      <keyword name="writeU24" id="Convert::FL::writeU24" ref="struct_convert_1_1_f_l.html#a272d48f9b86ca689fef1411402de23f0" />
+      <keyword name="readI32" id="Convert::FL::readI32" ref="struct_convert_1_1_f_l.html#a2998c3e6ea1f9947ba791b322cc99527" />
+      <keyword name="writeI32" id="Convert::FL::writeI32" ref="struct_convert_1_1_f_l.html#a9e8fa828cd3f2bc106ce12ec3828fa50" />
+      <keyword name="KBus" id="KBus" ref="class_k_bus.html" />
+      <keyword name="start" id="KBus::start" ref="class_k_bus.html#aa8824d7f01a4ba0ccbc7b0848928554f" />
+      <keyword name="isConnected" id="KBus::isConnected" ref="class_k_bus.html#aff03b32d17ed7bffcad6a4845bf5d5b3" />
+      <keyword name="isEmptyTX" id="KBus::isEmptyTX" ref="class_k_bus.html#a29bad77ddcbf1eab319210fd4b04aa7a" />
+      <keyword name="isEmptyRX" id="KBus::isEmptyRX" ref="class_k_bus.html#a58e971d9bba8c5ac3be9fc278811face" />
+      <keyword name="push" id="KBus::push" ref="class_k_bus.html#a305d33e934181fb9fc6210dbf41c9ffa" />
+      <keyword name="pop" id="KBus::pop" ref="class_k_bus.html#aa874e9cd87c7bacd328541fee1a36e82" />
+      <keyword name="addWorker" id="KBus::addWorker" ref="class_k_bus.html#a43d5862bdfe91e43d0c9fd3b1bc77677" />
+      <keyword name="removeAllWorker" id="KBus::removeAllWorker" ref="class_k_bus.html#a2ba237658cf8deb948150e4081962f82" />
+      <keyword name="startOverride" id="KBus::startOverride" ref="class_k_bus.html#a868bea6a6c94c10803356d1861b137a4" />
+      <keyword name="m_workers" id="KBus::m_workers" ref="class_k_bus.html#a5be335b1618b6b4a746836e0f107cacf" />
+      <keyword name="KBus::ConnectionData" id="KBus::ConnectionData" ref="struct_k_bus_1_1_connection_data.html" />
+      <keyword name="name" id="KBus::ConnectionData::name" ref="struct_k_bus_1_1_connection_data.html#a77173f5d7820d939806d5275ace56b22" />
+      <keyword name="type" id="KBus::ConnectionData::type" ref="struct_k_bus_1_1_connection_data.html#aa2896b145b2658089c2da56c08df51d6" />
+      <keyword name="data" id="KBus::ConnectionData::data" ref="struct_k_bus_1_1_connection_data.html#a27fbc07e86fd7ac6c53631cbbb4ce7fd" />
+      <keyword name="KBusFactory" id="KBusFactory" ref="class_k_bus_factory.html" />
+      <keyword name="instalBusCreator" id="KBusFactory::instalBusCreator" ref="class_k_bus_factory.html#acf3bcaa75b57bd22bb8d2fd814bc8d7c" />
+      <keyword name="create" id="KBusFactory::create" ref="class_k_bus_factory.html#af90b63b68dc45947328c96653a3b9647" />
+      <keyword name="create" id="KBusFactory::create" ref="class_k_bus_factory.html#ab9c0bb05396085091222106f8aaa7817" />
+      <keyword name="getCreatorsNames" id="KBusFactory::getCreatorsNames" ref="class_k_bus_factory.html#a77bd3b5bb0cf787ea176302440afacd4" />
+      <keyword name="getBusCreateData" id="KBusFactory::getBusCreateData" ref="class_k_bus_factory.html#a907120a3f195c2de93ac1546e16fb59b" />
+      <keyword name="instance" id="KBusFactory::instance" ref="class_k_bus_factory.html#ad60cc93d87f3cf81fdc3043026840b0d" />
+      <keyword name="KBusWorker" id="KBusWorker" ref="class_k_bus_worker.html" />
+      <keyword name="proceedPacket" id="KBusWorker::proceedPacket" ref="class_k_bus_worker.html#ab090fdd4a57724f2191141f3c24a7527" />
+      <keyword name="getPacketsForSend" id="KBusWorker::getPacketsForSend" ref="class_k_bus_worker.html#a826d84d89666a81422c603ba2550ee26" />
+      <keyword name="setID" id="KBusWorker::setID" ref="class_k_bus_worker.html#a5faf5b2b54a36acc4f1a030add0684d5" />
+      <keyword name="id" id="KBusWorker::id" ref="class_k_bus_worker.html#a1493721902cc7647105bd3eb086407be" />
+      <keyword name="KCommunicator" id="KCommunicator" ref="class_k_communicator.html" />
+      <keyword name="send" id="KCommunicator::send" ref="class_k_communicator.html#a0d166e4f298e6015aa314d9861b3f3a6" />
+      <keyword name="proceedRawData" id="KCommunicator::proceedRawData" ref="class_k_communicator.html#a3d91ffc01a1e92b7aad18b776f6f2057" />
+      <keyword name="setReceivePackCallback" id="KCommunicator::setReceivePackCallback" ref="class_k_communicator.html#a5459fbac1b602f4f52faba238a13524a" />
+      <keyword name="setTransmitPackCallback" id="KCommunicator::setTransmitPackCallback" ref="class_k_communicator.html#a100e0577a52850119824619642b4bcb5" />
+      <keyword name="receiveCallback" id="KCommunicator::receiveCallback" ref="class_k_communicator.html#adb67e138e439adf8b40aed5b02fe84b5" />
+      <keyword name="transmitCallback" id="KCommunicator::transmitCallback" ref="class_k_communicator.html#af93a4eaca7557c817decd761e32f6566" />
+      <keyword name="KRawParser" id="KRawParser" ref="class_k_raw_parser.html" />
+      <keyword name="proceedByte" id="KRawParser::proceedByte" ref="class_k_raw_parser.html#a7c0edf02909fe6ed13ca923cb4542b11" />
+      <keyword name="shieldFrame" id="KRawParser::shieldFrame" ref="class_k_raw_parser.html#a7420e58a9dade488f4c291dce22ecc8f" />
+      <keyword name="readUnshieldedFrame" id="KRawParser::readUnshieldedFrame" ref="class_k_raw_parser.html#a50cedabed14f2696c8936580df149658" />
+      <keyword name="getMaxFrameLength" id="KRawParser::getMaxFrameLength" ref="class_k_raw_parser.html#a2182b4debeb6ee223e12c2f1610df92e" />
+      <keyword name="proceedArray" id="KRawParser::proceedArray" ref="class_k_raw_parser.html#ae86fc2ec0401efb8ee11cbb2668d6e25" />
+      <keyword name="proceedArray" id="KRawParser::proceedArray" ref="class_k_raw_parser.html#ae13b9924066c583d5f0514a3c762eb3f" />
+      <keyword name="proceedRawData" id="KRawParser::proceedRawData" ref="class_k_raw_parser.html#a1e00ffe075a00c1a7f90b74d31604bd9" />
+      <keyword name="send" id="KRawParser::send" ref="class_k_raw_parser.html#a52becc8a9325b2e2693ecb36fcdf3787" />
+      <keyword name="setReceivePackCallback" id="KCommunicator::setReceivePackCallback" ref="class_k_communicator.html#a5459fbac1b602f4f52faba238a13524a" />
+      <keyword name="setTransmitPackCallback" id="KCommunicator::setTransmitPackCallback" ref="class_k_communicator.html#a100e0577a52850119824619642b4bcb5" />
+      <keyword name="receiveCallback" id="KCommunicator::receiveCallback" ref="class_k_communicator.html#adb67e138e439adf8b40aed5b02fe84b5" />
+      <keyword name="transmitCallback" id="KCommunicator::transmitCallback" ref="class_k_communicator.html#af93a4eaca7557c817decd761e32f6566" />
+      <keyword name="KRawParser::Frame" id="KRawParser::Frame" ref="struct_k_raw_parser_1_1_frame.html" />
+      <keyword name="data" id="KRawParser::Frame::data" ref="struct_k_raw_parser_1_1_frame.html#a98d0b8d6ff1f2a0b4e5243d9275524bb" />
+      <keyword name="size" id="KRawParser::Frame::size" ref="struct_k_raw_parser_1_1_frame.html#ac1595c21c1ca21646ad5cbf3cdd0cc5c" />
+      <keyword name="KSerialBusThreaded" id="KSerialBusThreaded" ref="class_k_serial_bus_threaded.html" />
+      <keyword name="KSerialBusThreaded" id="KSerialBusThreaded::KSerialBusThreaded" ref="class_k_serial_bus_threaded.html#a95b56c9e4dbcd4265038cd52a2c8c91b" />
+      <keyword name="~KSerialBusThreaded" id="KSerialBusThreaded::~KSerialBusThreaded" ref="class_k_serial_bus_threaded.html#ab94f71a3c9a9fbeb539b003c47f62a46" />
+      <keyword name="isEmptyTX" id="KSerialBusThreaded::isEmptyTX" ref="class_k_serial_bus_threaded.html#a8e34cce5071b8e3addf459661557f56b" />
+      <keyword name="isEmptyRX" id="KSerialBusThreaded::isEmptyRX" ref="class_k_serial_bus_threaded.html#ab6d5e9107218b763087ff6825be1d028" />
+      <keyword name="isConnected" id="KSerialBusThreaded::isConnected" ref="class_k_serial_bus_threaded.html#aa4d0a1fda372c7c427be29f5d96bf49e" />
+      <keyword name="push" id="KSerialBusThreaded::push" ref="class_k_serial_bus_threaded.html#a5e094800631065eef422f9c37de4e045" />
+      <keyword name="pop" id="KSerialBusThreaded::pop" ref="class_k_serial_bus_threaded.html#a85d12fc1fd55761dbb64f9dd176dd92b" />
+      <keyword name="stopThread" id="KSerialBusThreaded::stopThread" ref="class_k_serial_bus_threaded.html#ac60f37c2c0a68cc36fd2f612b7bf1226" />
+      <keyword name="setPort" id="KSerialBusThreaded::setPort" ref="class_k_serial_bus_threaded.html#a99f591ccc6935dfea180fb8358f6fd93" />
+      <keyword name="start" id="KBus::start" ref="class_k_bus.html#aa8824d7f01a4ba0ccbc7b0848928554f" />
+      <keyword name="addWorker" id="KBus::addWorker" ref="class_k_bus.html#a43d5862bdfe91e43d0c9fd3b1bc77677" />
+      <keyword name="removeAllWorker" id="KBus::removeAllWorker" ref="class_k_bus.html#a2ba237658cf8deb948150e4081962f82" />
+      <keyword name="getConnectionData" id="KSerialBusThreaded::getConnectionData" ref="class_k_serial_bus_threaded.html#a624318aa7baee286dbf1bb7e1b20e113" />
+      <keyword name="startOverride" id="KSerialBusThreaded::startOverride" ref="class_k_serial_bus_threaded.html#a0886bce97f5a990782d0694caf3dbf67" />
+      <keyword name="m_workers" id="KBus::m_workers" ref="class_k_bus.html#a5be335b1618b6b4a746836e0f107cacf" />
+    </keywords>
+    <files>
+      <file>tabs.css</file>
+      <file>tab_a.png</file>
+      <file>tab_b.png</file>
+      <file>tab_h.png</file>
+      <file>tab_s.png</file>
+      <file>nav_h.png</file>
+      <file>nav_f.png</file>
+      <file>bc_s.png</file>
+      <file>doxygen.png</file>
+      <file>closed.png</file>
+      <file>open.png</file>
+      <file>bdwn.png</file>
+      <file>sync_on.png</file>
+      <file>sync_off.png</file>
+      <file>doxygen.css</file>
+      <file>jquery.js</file>
+      <file>dynsections.js</file>
+      <file>search/search_l.png</file>
+      <file>search/search_m.png</file>
+      <file>search/search_r.png</file>
+      <file>search/close.png</file>
+      <file>search/mag_sel.png</file>
+      <file>search/search.css</file>
+      <file>search/search.js</file>
+      <file>_k_bus_8h_source.html</file>
+      <file>kbusworker_8h_source.html</file>
+      <file>_k_communicator_8h_source.html</file>
+      <file>kserialbusthreaded_8h_source.html</file>
+      <file>_k_raw_parser_8h_source.html</file>
+      <file>_k_bus__global_8h_source.html</file>
+      <file>kbusfactory_8h_source.html</file>
+      <file>circlebuf_8h_source.html</file>
+      <file>convert_8h_source.html</file>
+      <file>md__c_1__users_sit23__documents__application_projects_source__k_bus__r_e_a_d_m_e.html</file>
+      <file>class_circle_buf.html</file>
+      <file>class_circle_buf-members.html</file>
+      <file>class_convert.html</file>
+      <file>struct_convert_1_1_f_b.html</file>
+      <file>struct_convert_1_1_f_b-members.html</file>
+      <file>struct_convert_1_1_f_l.html</file>
+      <file>struct_convert_1_1_f_l-members.html</file>
+      <file>class_k_bus.html</file>
+      <file>class_k_bus.png</file>
+      <file>class_k_bus-members.html</file>
+      <file>struct_k_bus_1_1_connection_data.html</file>
+      <file>struct_k_bus_1_1_connection_data-members.html</file>
+      <file>class_k_bus_factory.html</file>
+      <file>class_k_bus_factory-members.html</file>
+      <file>class_k_bus_worker.html</file>
+      <file>class_k_bus_worker.png</file>
+      <file>class_k_bus_worker-members.html</file>
+      <file>class_k_communicator.html</file>
+      <file>class_k_communicator.png</file>
+      <file>class_k_communicator-members.html</file>
+      <file>class_k_raw_parser.html</file>
+      <file>class_k_raw_parser.png</file>
+      <file>class_k_raw_parser-members.html</file>
+      <file>struct_k_raw_parser_1_1_frame.html</file>
+      <file>struct_k_raw_parser_1_1_frame-members.html</file>
+      <file>class_k_serial_bus_threaded.html</file>
+      <file>class_k_serial_bus_threaded.png</file>
+      <file>class_k_serial_bus_threaded-members.html</file>
+      <file>dir_e914ee4d4a44400f1fdb170cb4ead18a.html</file>
+      <file>dir_997beb15eb1123ae59dfa5856db999bd.html</file>
+      <file>dir_554b72d9d4578d9df8791a2e0537fee7.html</file>
+      <file>dir_4eeb864c4eec08c7d6b9d3b0352cfdde.html</file>
+      <file>index.html</file>
+      <file>pages.html</file>
+      <file>annotated.html</file>
+      <file>classes.html</file>
+      <file>hierarchy.html</file>
+      <file>functions.html</file>
+      <file>functions.html</file>
+      <file>functions.html</file>
+      <file>functions.html</file>
+      <file>functions.html</file>
+      <file>functions.html</file>
+      <file>functions.html</file>
+      <file>functions_func.html</file>
+      <file>functions_func.html</file>
+      <file>functions_func.html</file>
+      <file>functions_func.html</file>
+      <file>functions_func.html</file>
+      <file>functions_func.html</file>
+      <file>functions_func.html</file>
+      <file>files.html</file>
+    </files>
+
+  </filterSection>
+</QtHelpProject>

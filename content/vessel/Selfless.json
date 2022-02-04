@@ -1,0 +1,20 @@
+{
+    "Createable": false,
+    "MaxDepth": 0,
+    "MaxVelocity": 0,
+    "ObjectName": "Selfless",
+    "Removeable": false,
+    "Removed": false,
+    "Torpedos": [
+        "Torpedo",
+        "Torpedo",
+        "Torpedo",
+        "Torpedo",
+        "Torpedo",
+        "Torpedo",
+        "Torpedo",
+        "Torpedo"
+    ],
+    "Type": "Vessel",
+    "imagePath": "../../../content/images/HOS_AIR.svg.png"
+}

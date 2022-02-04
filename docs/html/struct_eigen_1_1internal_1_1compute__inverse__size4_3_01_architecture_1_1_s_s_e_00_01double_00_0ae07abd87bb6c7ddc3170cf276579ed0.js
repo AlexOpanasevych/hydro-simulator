@@ -1,0 +1,4 @@
+var struct_eigen_1_1internal_1_1compute__inverse__size4_3_01_architecture_1_1_s_s_e_00_01double_00_0ae07abd87bb6c7ddc3170cf276579ed0 =
+[
+    [ "ActualMatrixType", "struct_eigen_1_1internal_1_1compute__inverse__size4_3_01_architecture_1_1_s_s_e_00_01double_00_0ae07abd87bb6c7ddc3170cf276579ed0.html#a8c192b289cb1e6467ea937d742232706", null ]
+];

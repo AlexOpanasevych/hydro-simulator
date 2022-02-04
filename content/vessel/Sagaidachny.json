@@ -1,0 +1,20 @@
+{
+    "Createable": false,
+    "MaxDepth": 0,
+    "MaxVelocity": 33,
+    "ObjectName": "Sagaidachny",
+    "Removeable": true,
+    "Removed": false,
+    "Torpedos": [
+        "Torpedo",
+        "Torpedo",
+        "Torpedo",
+        "Torpedo",
+        "Torpedo",
+        "Torpedo",
+        "Torpedo",
+        "Torpedo"
+    ],
+    "Type": "Vessel",
+    "imagePath": ""
+}

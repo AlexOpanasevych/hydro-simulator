@@ -1,0 +1,4 @@
+module AudioModule
+AudioModuleSettingsButton 1.0 qml/AudioModuleSettingsButton.qml
+AudioModuleSettingsWindow 1.0 qml/AudioModuleSettingsWindow.qml
+plugin AudioModule

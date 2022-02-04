@@ -1,0 +1,10 @@
+{
+    "Createable": false,
+    "MaxDepth": 300,
+    "MaxVelocity": 50,
+    "ObjectName": "PowerFull_Torpedo",
+    "Removeable": true,
+    "Removed": false,
+    "Type": "Torpedo",
+    "imagePath": ""
+}

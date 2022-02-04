@@ -1,0 +1,31 @@
+# profile for non-mevis users to link to PythonQt
+
+include ( python.prf )  
+
+INCLUDEPATH += $$PWD/../src
+
+# check if debug or release
+CONFIG(debug, debug|release) {
+  DEBUG_EXT = _d
+} else {
+  DEBUG_EXT =
+}
+
+message(adadadadadadad $$OUT_PWD/../libs/pythonqt/lib/PythonQt-Qt5-Python$${PYTHON_VERSION}$${DEBUG_EXT}.dll)
+
+#win32-g++: {
+#pythonqt_copy.files = \
+#    $$OUT_PWD/../libs/pythonqt/lib/PythonQt-Qt5-Python$${PYTHON_VERSION}$${DEBUG_EXT}.dll
+#}else:win32-msvc*: {
+#pythonqt_copy.files = \
+#    $$OUT_PWD/../libs/pythonqt/lib/PythonQt-Qt5-Python$${PYTHON_VERSION}$${DEBUG_EXT}.lib
+#}else:unix: {
+#pythonqt_copy.files = \
+#    $$OUT_PWD/../libs/pythonqt/lib/libPythonQt-Qt5-Python$${PYTHON_VERSION}$${DEBUG_EXT}.so
+#}
+
+#pythonqt_copy.path = $$OUT_PWD/debug
+
+#COPIES += pythonqt_copy
+
+LIBS += -L$$OUT_PWD/../../../bin/plugins/ServerInterface/ -lPythonQt-Qt5-Python$${PYTHON_VERSION}$${DEBUG_EXT}

@@ -1,0 +1,12 @@
+#ifndef KLIBCORELITE_GLOBAL_H
+#define KLIBCORELITE_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(KLIBCORELITE_LIBRARY)
+#  define KLIBCORELITE_EXPORT Q_DECL_EXPORT
+#else
+#  define KLIBCORELITE_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // KLIBCORELITE_GLOBAL_H

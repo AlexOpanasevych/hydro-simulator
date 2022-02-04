@@ -1,0 +1,12 @@
+#ifndef TCPWORKERS_GLOBAL_H
+#define TCPWORKERS_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(TCPWORKERS_LIBRARY)
+#  define TCPWORKERS_EXPORT Q_DECL_EXPORT
+#else
+#  define TCPWORKERS_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // TCPWORKERS_GLOBAL_H

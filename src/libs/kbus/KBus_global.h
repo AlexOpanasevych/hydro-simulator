@@ -1,0 +1,12 @@
+#ifndef KBUS_GLOBAL_H
+#define KBUS_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(KBUS_LIBRARY)
+#  define KBUS_EXPORT Q_DECL_EXPORT
+#else
+#  define KBUS_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // KBUS_GLOBAL_H

@@ -1,0 +1,10 @@
+module Torpedo
+TorpedoAddItemMenuButton 1.0 qml/menuButton/TorpedoAddItemMenuButton.qml
+TorpedoAddItemMenuWindow 1.0 qml/menuWindow/TorpedoAddItemMenuWindow.qml
+TorpedoSceneLoader 1.0 qml/sceneLoader/TorpedoSceneLoader.qml
+TorpedoProperties 1.0 qml/properties/TorpedoProperties.qml
+TorpedoMenuButton 1.0 qml/menuButton/TorpedoMenuButton.qml
+TorpedoMenuWindow 1.0 qml/menuWindow/TorpedoMenuWindow.qml
+TorpedoItem 1.0 qml/items/TorpedoItem.qml
+ViewField 1.0 qml/items/ViewField.qml
+plugin Torpedo

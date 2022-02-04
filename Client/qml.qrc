@@ -1,0 +1,32 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>QMLLoader.qml</file>
+        <file>qml/MGKButton.qml</file>
+        <file>qml/MGKDial.qml</file>
+        <file>qml/MGKLamp.qml</file>
+        <file>qml/MGKNumberView.qml</file>
+        <file>qml/MGKLight.qml</file>
+        <file>qml/MGKSwitch.qml</file>
+        <file>qml/MGKMultiSwitch.qml</file>
+        <file>qml/MGKButtonGroup.qml</file>
+        <file>qml/Background.qml</file>
+        <file>qml/MGKText.qml</file>
+        <file>qml/ManualMessage.qml</file>
+        <file>qml/MGKRectMonitor.qml</file>
+        <file>qml/Block.qml</file>
+        <file>qml/MGKRecorder.qml</file>
+        <file>qml/CircleIndicator.qml</file>
+        <file>qml/MGKHelm.qml</file>
+        <file>qml/MGKRoundButton.qml</file>
+        <file>qml/CustomDial.qml</file>
+        <file>qml/SwitchStepper.qml</file>
+        <file>qml/DivisionBackground.qml</file>
+        <file>qml/MGKTucMonitor.qml</file>
+        <file>qml/VolumeSliderPopup.qml</file>
+        <file>qml/ServerStatusPopup.qml</file>
+        <file>GlobalQMLLoader.qml</file>
+        <file>qml/BronzeRectMonitor.qml</file>
+        <file>SimDataConsole.qml</file>
+    </qresource>
+</RCC>

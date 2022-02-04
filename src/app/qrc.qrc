@@ -1,0 +1,42 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resources/fonts/AwesomeRegular.ttf</file>
+        <file>resources/fonts/AwesomeSolid.ttf</file>
+        <file>resources/icons/submarineBold.svg</file>
+        <file>resources/icons/submarineRegular.svg</file>
+        <file>resources/icons/torpedoBold.svg</file>
+        <file>resources/icons/torpedoRegular.svg</file>
+        <file>resources/qml/scene/KSceneArea.qml</file>
+        <file>resources/qml/scene/KScenePlayerItem.qml</file>
+        <file>resources/qml/scene/KSceneViewer.qml</file>
+        <file>resources/qml/scene/SceneRect.qml</file>
+        <file>resources/qml/main.qml</file>
+        <file>resources/shaders/noisy.fsh</file>
+        <file>resources/shaders/noisy.vsh</file>
+        <file>resources/qml/delegates/properties/TargetDelegateWindow.qml</file>
+        <file>resources/qml/scene/TraceArrow.qml</file>
+        <file>resources/qml/scene/TraceTriangle.qml</file>
+        <file>resources/qml/delegates/properties/trajectory/SeparatedText.qml</file>
+        <file>resources/qml/delegates/properties/trajectory/WarningArea.qml</file>
+        <file>resources/qml/delegates/properties/TargetDelegateButton.qml</file>
+        <file>resources/qml/delegates/settings/SettingsDelegateFrameButton.qml</file>
+        <file>resources/qml/delegates/settings/SettingsDelegateFrameWindow.qml</file>
+        <file>resources/qml/topBar/DeleteButton.qml</file>
+        <file>resources/qml/topBar/Separator.qml</file>
+        <file>resources/qml/delegates/settings/SettingsFrame.qml</file>
+        <file>resources/qml/delegates/settings/SettingsFrameWindow.qml</file>
+        <file>resources/qml/topBar/MoveButton.qml</file>
+        <file>resources/qml/topBar/CenterButton.qml</file>
+        <file>resources/qml/topBar/DevButton.qml</file>
+        <file>resources/qml/delegates/pmanager/PluginsManagerWindow.qml</file>
+        <file>resources/qml/delegates/pmanager/PluginsManagerButton.qml</file>
+        <file>resources/qml/delegates/pmanager/PluginsManagerDragDelegate.qml</file>
+        <file>resources/qml/delegates/log/SettingsWindowLog.qml</file>
+        <file>resources/qml/delegates/log/SettingsButtonLog.qml</file>
+        <file>resources/qml/topBar/AdminInput.qml</file>
+        <file>resources/qml/topBar/AdditionalInfoButton.qml</file>
+        <file>resources/qml/delegates/properties/ExtraInfoPage.qml</file>
+        <file>resources/icons/msgpart.png</file>
+        <file>resources/qml/scene/pushnotification.mjs</file>
+    </qresource>
+</RCC>

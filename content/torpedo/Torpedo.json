@@ -1,0 +1,10 @@
+{
+    "Createable": false,
+    "MaxDepth": 300,
+    "MaxVelocity": 50,
+    "ObjectName": "Torpedo",
+    "Removeable": true,
+    "Removed": false,
+    "Type": "Torpedo",
+    "imagePath": "../../../content/images/73px-FRD_SUB.svg.png"
+}

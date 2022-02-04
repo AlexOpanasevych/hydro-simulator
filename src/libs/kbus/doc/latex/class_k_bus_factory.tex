@@ -1,0 +1,136 @@
+\hypertarget{class_k_bus_factory}{}\doxysection{K\+Bus\+Factory Class Reference}
+\label{class_k_bus_factory}\index{KBusFactory@{KBusFactory}}
+
+
+Factory for creating \mbox{\hyperlink{class_k_bus}{K\+Bus}} implementations.  
+
+
+
+
+{\ttfamily \#include $<$kbusfactory.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_k_bus_factory_acf3bcaa75b57bd22bb8d2fd814bc8d7c}{instal\+Bus\+Creator}} (Q\+String type, std\+::function$<$ \mbox{\hyperlink{class_k_bus}{K\+Bus}} $\ast$(Q\+Variant\+Map)$>$ creator, std\+::function$<$ Q\+List$<$ \mbox{\hyperlink{struct_k_bus_1_1_connection_data}{K\+Bus\+::\+Connection\+Data}} $>$()$>$ get\+Connection\+Data)
+\begin{DoxyCompactList}\small\item\em Push new \mbox{\hyperlink{class_k_bus_factory}{K\+Bus\+Factory}} product to storage. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_k_bus}{K\+Bus}} $\ast$ \mbox{\hyperlink{class_k_bus_factory_af90b63b68dc45947328c96653a3b9647}{create}} (Q\+String name, Q\+Variant\+Map)
+\begin{DoxyCompactList}\small\item\em Create instance of \mbox{\hyperlink{class_k_bus_factory}{K\+Bus\+Factory}} product. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_k_bus_factory_ab9c0bb05396085091222106f8aaa7817}\label{class_k_bus_factory_ab9c0bb05396085091222106f8aaa7817}} 
+{\footnotesize template$<$class T\+Class $>$ }\\T\+Class $\ast$ {\bfseries create} (Q\+String type, Q\+Variant\+Map params)
+\item 
+Q\+List$<$ Q\+String $>$ \mbox{\hyperlink{class_k_bus_factory_a77bd3b5bb0cf787ea176302440afacd4}{get\+Creators\+Names}} ()
+\begin{DoxyCompactList}\small\item\em Get names of all exist \mbox{\hyperlink{class_k_bus_factory}{K\+Bus\+Factory}} products. \end{DoxyCompactList}\item 
+Q\+List$<$ \mbox{\hyperlink{struct_k_bus_1_1_connection_data}{K\+Bus\+::\+Connection\+Data}} $>$ \mbox{\hyperlink{class_k_bus_factory_a907120a3f195c2de93ac1546e16fb59b}{get\+Bus\+Create\+Data}} (Q\+String name)
+\begin{DoxyCompactList}\small\item\em Get create\+Data of selected \mbox{\hyperlink{class_k_bus_factory}{K\+Bus\+Factory}} product. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_k_bus_factory}{K\+Bus\+Factory}} $\ast$ \mbox{\hyperlink{class_k_bus_factory_ad60cc93d87f3cf81fdc3043026840b0d}{instance}} ()
+\begin{DoxyCompactList}\small\item\em Once create object of \mbox{\hyperlink{class_k_bus_factory}{K\+Bus\+Factory}} and install factory products. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Factory for creating \mbox{\hyperlink{class_k_bus}{K\+Bus}} implementations. 
+
+\begin{DoxyAuthor}{Authors}
+oleksii, VladyslavN 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+0.\+1 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+26.\+04.\+2021 
+\end{DoxyDate}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_k_bus_factory_af90b63b68dc45947328c96653a3b9647}\label{class_k_bus_factory_af90b63b68dc45947328c96653a3b9647}} 
+\index{KBusFactory@{KBusFactory}!create@{create}}
+\index{create@{create}!KBusFactory@{KBusFactory}}
+\doxysubsubsection{\texorpdfstring{create()}{create()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_k_bus}{K\+Bus}} $\ast$ K\+Bus\+Factory\+::create (\begin{DoxyParamCaption}\item[{Q\+String}]{name,  }\item[{Q\+Variant\+Map}]{params }\end{DoxyParamCaption})}
+
+
+
+Create instance of \mbox{\hyperlink{class_k_bus_factory}{K\+Bus\+Factory}} product. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em name} & -\/ name of \mbox{\hyperlink{class_k_bus}{K\+Bus}} implementation \\
+\hline
+\mbox{\texttt{ in}}  & {\em params} & -\/ parameters for initialization \mbox{\hyperlink{class_k_bus_factory}{K\+Bus\+Factory}} product\\
+\hline
+\end{DoxyParams}
+The created product must exist in Factory, previously added by \mbox{\hyperlink{class_k_bus_factory_acf3bcaa75b57bd22bb8d2fd814bc8d7c}{instal\+Bus\+Creator()}} \begin{DoxyReturn}{Returns}
+Pointer to selected \mbox{\hyperlink{class_k_bus_factory}{K\+Bus\+Factory}} product 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_k_bus_factory_a907120a3f195c2de93ac1546e16fb59b}\label{class_k_bus_factory_a907120a3f195c2de93ac1546e16fb59b}} 
+\index{KBusFactory@{KBusFactory}!getBusCreateData@{getBusCreateData}}
+\index{getBusCreateData@{getBusCreateData}!KBusFactory@{KBusFactory}}
+\doxysubsubsection{\texorpdfstring{getBusCreateData()}{getBusCreateData()}}
+{\footnotesize\ttfamily Q\+List$<$ \mbox{\hyperlink{struct_k_bus_1_1_connection_data}{K\+Bus\+::\+Connection\+Data}} $>$ K\+Bus\+Factory\+::get\+Bus\+Create\+Data (\begin{DoxyParamCaption}\item[{Q\+String}]{name }\end{DoxyParamCaption})}
+
+
+
+Get create\+Data of selected \mbox{\hyperlink{class_k_bus_factory}{K\+Bus\+Factory}} product. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em name} & -\/ name of \mbox{\hyperlink{class_k_bus}{K\+Bus}} implementation \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+List of Connection\+Data 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_k_bus_factory_a77bd3b5bb0cf787ea176302440afacd4}\label{class_k_bus_factory_a77bd3b5bb0cf787ea176302440afacd4}} 
+\index{KBusFactory@{KBusFactory}!getCreatorsNames@{getCreatorsNames}}
+\index{getCreatorsNames@{getCreatorsNames}!KBusFactory@{KBusFactory}}
+\doxysubsubsection{\texorpdfstring{getCreatorsNames()}{getCreatorsNames()}}
+{\footnotesize\ttfamily Q\+List$<$ Q\+String $>$ K\+Bus\+Factory\+::get\+Creators\+Names (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get names of all exist \mbox{\hyperlink{class_k_bus_factory}{K\+Bus\+Factory}} products. 
+
+\begin{DoxyReturn}{Returns}
+List of names 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_k_bus_factory_acf3bcaa75b57bd22bb8d2fd814bc8d7c}\label{class_k_bus_factory_acf3bcaa75b57bd22bb8d2fd814bc8d7c}} 
+\index{KBusFactory@{KBusFactory}!instalBusCreator@{instalBusCreator}}
+\index{instalBusCreator@{instalBusCreator}!KBusFactory@{KBusFactory}}
+\doxysubsubsection{\texorpdfstring{instalBusCreator()}{instalBusCreator()}}
+{\footnotesize\ttfamily void K\+Bus\+Factory\+::instal\+Bus\+Creator (\begin{DoxyParamCaption}\item[{Q\+String}]{type,  }\item[{std\+::function$<$ \mbox{\hyperlink{class_k_bus}{K\+Bus}} $\ast$(Q\+Variant\+Map)$>$}]{creator,  }\item[{std\+::function$<$ Q\+List$<$ \mbox{\hyperlink{struct_k_bus_1_1_connection_data}{K\+Bus\+::\+Connection\+Data}} $>$()$>$}]{get\+Connection\+Data }\end{DoxyParamCaption})}
+
+
+
+Push new \mbox{\hyperlink{class_k_bus_factory}{K\+Bus\+Factory}} product to storage. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em type} & -\/ name of \mbox{\hyperlink{class_k_bus}{K\+Bus}} implementation \\
+\hline
+\mbox{\texttt{ in}}  & {\em creator} & -\/ function which create selected object, initializes it with parameters and return pointer to it \\
+\hline
+\mbox{\texttt{ in}}  & {\em get\+Data} & -\/ pointer to static function if \mbox{\hyperlink{class_k_bus}{K\+Bus}} implementation which return list of struct Connection\+Data\\
+\hline
+\end{DoxyParams}
+Provides a simple way to insert new \mbox{\hyperlink{class_k_bus}{K\+Bus}} implementation to m\+\_\+creators. Connection\+Data used for automatic create G\+UI forms to select parameters \mbox{\Hypertarget{class_k_bus_factory_ad60cc93d87f3cf81fdc3043026840b0d}\label{class_k_bus_factory_ad60cc93d87f3cf81fdc3043026840b0d}} 
+\index{KBusFactory@{KBusFactory}!instance@{instance}}
+\index{instance@{instance}!KBusFactory@{KBusFactory}}
+\doxysubsubsection{\texorpdfstring{instance()}{instance()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_k_bus_factory}{K\+Bus\+Factory}} $\ast$ K\+Bus\+Factory\+::instance (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Once create object of \mbox{\hyperlink{class_k_bus_factory}{K\+Bus\+Factory}} and install factory products. 
+
+\begin{DoxyReturn}{Returns}
+Pointer to \mbox{\hyperlink{class_k_bus_factory}{K\+Bus\+Factory}} object 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/sit23/\+Documents/\+Application\+Projects\+Source/\+K\+Bus/kbusfactory.\+h\item 
+C\+:/\+Users/sit23/\+Documents/\+Application\+Projects\+Source/\+K\+Bus/kbusfactory.\+cpp\end{DoxyCompactItemize}

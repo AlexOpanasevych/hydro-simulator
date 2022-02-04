@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>AwesomeMap.js</file>
+        <file>BaseBackground.qml</file>
+        <file>Icon.qml</file>
+        <file>IconHelper.qml</file>
+        <file>RippleMask.qml</file>
+        <file>WavedMouseArea.qml</file>
+        <file>AwesomeRegular.ttf</file>
+        <file>AwesomeSolid.ttf</file>
+    </qresource>
+</RCC>

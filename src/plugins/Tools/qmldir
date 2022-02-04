@@ -1,0 +1,5 @@
+module Tools
+TestSettingsButton 1.0 qml/Test/TestSettingsButton.qml
+TestSettingsWindow 1.0 qml/Test/TestSettingsWindow.qml
+TestBackgroundExtension 1.0 qml/Test/TestBackgroundExtension.qml
+plugin Tools
